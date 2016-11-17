@@ -63,8 +63,6 @@ body {
 	left: 0;
 	height: @footerHeight;
     padding-top: 24px;
-
-
 	.headerText;
     a {
     	.headerText;
@@ -72,7 +70,6 @@ body {
     button {
     	.headerText;
     }
-
 	.leftFooterColumn {
 		width: auto;
 		position: absolute;
@@ -89,6 +86,17 @@ body {
 		position: absolute;
 		right: 95px;
 	}
+	.footerLink {
+		&:hover {
+			color: rgba(0,0,0, .7);
+		}
+	}
+	.socialIcons {
+		color: red;
+		&:hover {
+			color: rgba(0,0,0, .7);
+		}
+	}
 }
 
 //-----------------------------------------------
@@ -99,12 +107,15 @@ body {
 @media all and (min-width : 1360px) {
 	body {
 		.aboutPage {
-	    	.textBlock {
-	    		display: inline-block;
-		    	margin-left: 40px;
-		    	margin-bottom: 0;
-		    	width: 680px;
-	    	}
+			.itemContainer {
+		    	.textBlock {
+		    		display: inline-block;
+			    	margin-left: 40px;
+			    	margin-bottom: 0;
+			    	width: 610px;
+			    	padding-top: 0;
+		    	}
+			}
 		}
 	}
 }
@@ -112,7 +123,7 @@ body {
 	.itemContainer {
 		//display: inline-block;
 		display: block;
-		margin-top: 100px;
+		margin-top: 90px;
 		text-align: left;
 		.image {
 			background-color: rgba(0, 0, 0, 0.1);
@@ -156,8 +167,9 @@ body {
 		}
 		.headline {
 			text-transform: uppercase;
-			font-size: 29px;
+			font-size: 26px;
 			font-weight: 500;
+			letter-spacing: .5px;
 			line-height: initial;
 			margin-bottom: 8px;
 			margin-top: 20px;
@@ -165,6 +177,7 @@ body {
 		.textBlock {
 			width: 610px;
 			margin-top: 0;
+		    padding-top: 40px;
 		}
 	}
 	.textBlock {
@@ -185,9 +198,14 @@ body {
 	    margin-bottom: 10px;
     }
     .copy {
+    	/*
     	font-size: 21px;
     	font-weight: 300;
     	line-height: 33px;
+    	*/
+    	font-size: 20px;
+    	font-weight: 300;
+    	line-height: 31px;
     }
     .landingFrame {
 	    text-align: center;
@@ -210,18 +228,22 @@ body {
 
     		.textBlockMain {
     			color: white;
-    			width: 680px;
+    			max-width: 680px;
+    			width: 80%;
     		    display: inline-block;
     		    position: relative;
     		    top: 18vh;
     		    left: 10%;
     		    .headline {
-    		    	font-size: 100px;
-		    	    line-height: 92px;
-	    	        margin-bottom: 6px;
+    		    	font-size: 70px;
+		    	    line-height: 69px;
+	    	        margin-bottom: 11px;
     		    }
     		    .copy {
-    		    	width: 550px;
+    		    	max-width: 550px;
+    		    	font-size: 24px;
+    		    	font-weight: 300;
+    		    	line-height: 35px;
     		    }
     		}
     	}
@@ -244,7 +266,7 @@ body {
 //-----------------------------------------------
 //-----------------------------------------------
 //-----------------------------------------------
-// index / landing / Preorder page NEW (derived from About page)
+// Landing / Preorder page
 
 @media all and (max-width: 1000px) {
 	body {
@@ -318,18 +340,30 @@ body {
     		    position: absolute;
     		    top: 11vh;
     		    right: 9%;
+    		    text-align: center;
     		    .headline {
+    		    	
+    		    	/*
     		    	font-size: 100px;
 		    	    line-height: 92px;
 	    	        margin-bottom: 6px;
+	    	        */
+	    	        font-size: 70px;
+    	            line-height: 69px;
+	    	        margin-bottom: 11px;
+
 	    			text-transform: uppercase;
 	    			font-weight: 100;
     		    }
     		    .copy {
-    		    	max-width: 550px;
+    		    	
+    		    	//max-width: 550px;
+    		    	max-width: 600;
+
     		    	font-size: 21px;
     		    	font-weight: 300;
     		    	line-height: 33px;
+    		    	display: inline-block;
     		    }
 	    		.hline {
 	    			border-bottom: 1px solid rgba(0,0,0, .2);
@@ -523,7 +557,7 @@ body {
 //-----------------------------------------------
 //-----------------------------------------------
 //-----------------------------------------------
-// collection page
+// Collection page
 
 .collectionPage {
 	min-height: 100%;

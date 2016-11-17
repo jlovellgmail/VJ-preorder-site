@@ -80,17 +80,27 @@ body {
   position: absolute;
   right: 95px;
 }
+.footerContainer .footerLink:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+.footerContainer .socialIcons {
+  color: red;
+}
+.footerContainer .socialIcons:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
 @media all and (min-width: 1360px) {
-  body .aboutPage .textBlock {
+  body .aboutPage .itemContainer .textBlock {
     display: inline-block;
     margin-left: 40px;
     margin-bottom: 0;
-    width: 680px;
+    width: 610px;
+    padding-top: 0;
   }
 }
 .aboutPage .itemContainer {
   display: block;
-  margin-top: 100px;
+  margin-top: 90px;
   text-align: left;
 }
 .aboutPage .itemContainer .image {
@@ -126,8 +136,9 @@ body {
 }
 .aboutPage .itemContainer .headline {
   text-transform: uppercase;
-  font-size: 29px;
+  font-size: 26px;
   font-weight: 500;
+  letter-spacing: .5px;
   line-height: initial;
   margin-bottom: 8px;
   margin-top: 20px;
@@ -135,6 +146,7 @@ body {
 .aboutPage .itemContainer .textBlock {
   width: 610px;
   margin-top: 0;
+  padding-top: 40px;
 }
 .aboutPage .textBlock {
   color: black;
@@ -154,9 +166,14 @@ body {
   margin-bottom: 10px;
 }
 .aboutPage .copy {
-  font-size: 21px;
+  /*
+    	font-size: 21px;
+    	font-weight: 300;
+    	line-height: 33px;
+    	*/
+  font-size: 20px;
   font-weight: 300;
-  line-height: 33px;
+  line-height: 31px;
 }
 .aboutPage .landingFrame {
   text-align: center;
@@ -178,19 +195,23 @@ body {
 }
 .aboutPage .landingFrame .mainFrame .textBlockMain {
   color: white;
-  width: 680px;
+  max-width: 680px;
+  width: 80%;
   display: inline-block;
   position: relative;
   top: 18vh;
   left: 10%;
 }
 .aboutPage .landingFrame .mainFrame .textBlockMain .headline {
-  font-size: 100px;
-  line-height: 92px;
-  margin-bottom: 6px;
+  font-size: 70px;
+  line-height: 69px;
+  margin-bottom: 11px;
 }
 .aboutPage .landingFrame .mainFrame .textBlockMain .copy {
-  width: 550px;
+  max-width: 550px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 35px;
 }
 .aboutPage .landingFrame .downArrow {
   width: 37px;
@@ -258,19 +279,26 @@ body {
   position: absolute;
   top: 11vh;
   right: 9%;
+  text-align: center;
 }
 .preorderPage .landingFrame .mainFrame .preorderText .headline {
-  font-size: 100px;
-  line-height: 92px;
-  margin-bottom: 6px;
+  /*
+    		    	font-size: 100px;
+		    	    line-height: 92px;
+	    	        margin-bottom: 6px;
+	    	        */
+  font-size: 70px;
+  line-height: 69px;
+  margin-bottom: 11px;
   text-transform: uppercase;
   font-weight: 100;
 }
 .preorderPage .landingFrame .mainFrame .preorderText .copy {
-  max-width: 550px;
+  max-width: 600;
   font-size: 21px;
   font-weight: 300;
   line-height: 33px;
+  display: inline-block;
 }
 .preorderPage .landingFrame .mainFrame .preorderText .hline {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
