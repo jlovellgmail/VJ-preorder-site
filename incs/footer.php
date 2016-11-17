@@ -1,4 +1,7 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] .'/incs/modalFrame.php'; ?>
+<?php
+    //include $_SERVER['DOCUMENT_ROOT'] .'/incs/modalFrame.php';
+    include "modalFrame.php";
+?>
 
 
 <div class="footerContainer">

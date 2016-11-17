@@ -61,7 +61,9 @@ $seo_variable = "home";
 	</div>
 
 
-    <?php include '/incs/footer.php'; ?>
+	<?php include "/incs/footer.php"; ?>
+
+
 </body>
 </html>
 
