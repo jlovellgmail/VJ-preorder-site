@@ -760,3 +760,6 @@ body {
   display: block;
   text-align: justify;
 }
+.termsPage {
+  min-height: calc(100vh - 86px);
+}

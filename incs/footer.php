@@ -15,7 +15,7 @@
          --><li><a href="https://instagram.com/virgiljamesdesign/" target="_blank"><img src="/img/footer/grey/instagram_sm_icon.png" alt="Instagram" /></a></li>
         </ul>
         <ul class="footerLinks caps fw-400 sizeNavFoot">
-            <li><a class="footerLink" href='/terms.php'>Terms</a></li>
+            <li><a class="footerLink" href='preorder/terms.php'>Terms</a></li>
             <li><button class="footerLink" onclick="showModal('/incs/modals/common/modalNewsletter.php');">Newsletter</button></li>
             <li><button class="footerLink" onclick="showModal('/incs/modals/common/modalContact.php');">Contact</button></li>
         </ul>
