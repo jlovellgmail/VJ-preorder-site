@@ -937,7 +937,45 @@ body {
 // Terms page
 
 .termsPage {
-	min-height: calc(~"100vh - 86px");
+	padding-top: 76px;
+	text-align: center;
+	display: inline-block;
+	.contentContainer {
+	    padding-top: 70px;
+		max-width: 1060px;
+		text-align: left;
+		.headline {
+	    	text-transform: uppercase;
+	    	font-weight: 100;
+		    line-height: 73px;
+		    margin-bottom: 10px;
+	    	font-size: 70px;
+    	    line-height: 69px;
+            margin-bottom: 30px;
+	        padding-left: 170px;
+	        padding-right: 170px;
+		}
+		.navCol {
+			width: 160px;
+			display: inline-block;
+			text-align: right;
+			padding-right: 40px;
+			vertical-align: top;
+			.li {
+				&.active-term-link {
+					font-weight: bold;
+				}
+			}
+			a {
+				cursor: pointer;
+			}
+		}
+		.contentCol {
+			display: inline-block;
+			width: calc(~"100% - 170px - 170px");
+			text-align: justify;
+		}
+	}
 }
 
 
