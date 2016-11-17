@@ -6,7 +6,10 @@ $seo_variable = "home";
 <html class="no-js" lang="en">
 <head>
     <?php include '/incs/head-links.php'; ?>
-	<link rel="stylesheet" href="/css/index.css" />
+
+    <!-- JL -->
+	<!-- <link rel="stylesheet" href="/css/index.css" /> -->
+
 	<link rel="stylesheet" href="../css/preorder.css" />
 </head>
 <body class="body">
