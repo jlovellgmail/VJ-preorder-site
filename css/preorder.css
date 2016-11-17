@@ -788,7 +788,7 @@ body {
   padding-right: 40px;
   vertical-align: top;
 }
-.termsPage .contentContainer .navCol .li.active-term-link {
+.termsPage .contentContainer .navCol li.active-term-link {
   font-weight: bold;
 }
 .termsPage .contentContainer .navCol a {
