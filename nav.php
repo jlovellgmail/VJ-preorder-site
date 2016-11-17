@@ -17,7 +17,7 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
 
 
         <div class="logoWrapper">
-            <a class="logoLink" href="preorder/index.php"><img class="navLogo" src="../images/VJ_logo_black.png" alt="Virgil James" /></a>
+            <a class="logoLink" href="preorder/index.php"><img class="navLogo" src="../images/VJ_logo.svg" alt="Virgil James" /></a>
         </div>
 
         
