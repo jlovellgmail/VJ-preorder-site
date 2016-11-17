@@ -13,6 +13,7 @@ $seo_variable = "home";
 	<?php include 'nav.php'; ?>
 	
 
+
 	<div class="aboutPage">
 		<div class="landingFrame">
 			<div class="mainFrame">
@@ -27,7 +28,6 @@ $seo_variable = "home";
 			</div>
 			<img class="downArrow" src="../images/arrow_down.svg">
 		</div>
-		<!-- below the fold -->
 		<div class=belowLandingFrame>
 
 
@@ -128,12 +128,8 @@ $seo_variable = "home";
 	</div>
 
 
-    <?php 
-		include '/incs/footer.php'; 
-    ?>
 
-
-
+    <?php include '/incs/footer.php'; ?>
 </body>
 </html>
 
