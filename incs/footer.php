@@ -1,4 +1,8 @@
 <?php
+    $rootpath_preorder = $_SERVER['DOCUMENT_ROOT']."/preorder/";
+?>
+
+<?php
     //include $_SERVER['DOCUMENT_ROOT'] .'/incs/modalFrame.php';
     include "modalFrame.php";
 ?>
@@ -16,8 +20,8 @@
         </ul>
         <ul class="footerLinks caps fw-400 sizeNavFoot">
             <li><a class="footerLink" href='preorder/terms.php'>Terms</a></li>
-            <li><button class="footerLink" onclick="showModal('/incs/modals/common/modalNewsletter.php');">Newsletter</button></li>
-            <li><button class="footerLink" onclick="showModal('/incs/modals/common/modalContact.php');">Contact</button></li>
+            <li><button class="footerLink" onclick="showModal('/preorder/incs/modals/common/modalNewsletter.php');">Newsletter</button></li>
+            <li><button class="footerLink" onclick="showModal('/preorder/incs/modals/common/modalContact.php');">Contact</button></li>
         </ul>
     </div>
 
