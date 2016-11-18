@@ -14,7 +14,7 @@ $seo_variable = "home";
 	
 
 
-	<div class="aboutPage">
+	<div class="aboutPage bg1">
 		<div class="landingFrame">
 			<div class="mainFrame">
 				<div class="textBlockMain">

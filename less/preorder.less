@@ -178,6 +178,41 @@ body {
 	}
 }
 .aboutPage {
+
+	&.bg1 {
+		.landingFrame {
+			.mainFrame {
+				background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
+				.textBlockMain {
+					top: 33%;
+					left: 18%;
+				}
+			}
+		}
+	}
+	&.bg2 {
+		.landingFrame {
+			.mainFrame {
+				background-image: url("/preorder/images/about_hero2_7.jpg");
+				.textBlockMain {
+					top: 36%;
+					left: 54%;
+				}
+			}
+		}
+
+	}
+	&.bg3 {
+		.landingFrame {
+			.mainFrame {
+				background-image: url("/preorder/images/about_hero1_7.jpg");
+			}
+		}
+
+	}
+
+
+
 	.itemContainer {
 		//display: inline-block;
 		display: block;
@@ -273,20 +308,12 @@ body {
     		height: calc(~"100vh - 76px - 86px");
     		top: 76px;
     		position: relative;
-    		background-image: url("/preorder/images/about_hero1_7.jpg");
+    		
+    		background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
     		background-position-x: center;
     		background-position-y: 70%;
     		background-size: cover;
     	    text-align: left;
-
-    	    // alternative backgrounds
-    	    &.bg2 {
-    	    	background-image: url("/preorder/images/about_hero2_7.jpg");
-    	    }
-    	    &.bg3 {
-    	    	background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
-    	    }
-
     		.textBlockMain {
     			color: white;
     			max-width: 680px;

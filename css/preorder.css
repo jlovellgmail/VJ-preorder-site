@@ -147,6 +147,23 @@ body {
     padding-top: 0;
   }
 }
+.aboutPage.bg1 .landingFrame .mainFrame {
+  background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
+}
+.aboutPage.bg1 .landingFrame .mainFrame .textBlockMain {
+  top: 33%;
+  left: 18%;
+}
+.aboutPage.bg2 .landingFrame .mainFrame {
+  background-image: url("/preorder/images/about_hero2_7.jpg");
+}
+.aboutPage.bg2 .landingFrame .mainFrame .textBlockMain {
+  top: 36%;
+  left: 54%;
+}
+.aboutPage.bg3 .landingFrame .mainFrame {
+  background-image: url("/preorder/images/about_hero1_7.jpg");
+}
 .aboutPage .itemContainer {
   display: block;
   margin-top: 90px;
@@ -238,12 +255,6 @@ body {
   background-position-y: 70%;
   background-size: cover;
   text-align: left;
-}
-.aboutPage .landingFrame .mainFrame.bg2 {
-  background-image: url("/preorder/images/about_hero2_7.jpg");
-}
-.aboutPage .landingFrame .mainFrame.bg3 {
-  background-image: url("/preorder/images/about_hero1_7.jpg");
 }
 .aboutPage .landingFrame .mainFrame .textBlockMain {
   color: white;

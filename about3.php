@@ -13,9 +13,9 @@ $seo_variable = "home";
 	<?php include 'nav.php'; ?>
 	
 
-	<div class="aboutPage">
+	<div class="aboutPage bg3">
 		<div class="landingFrame">
-			<div class="mainFrame bg3">
+			<div class="mainFrame">
 				<div class="textBlockMain">
 					<div class="headline">
 						Getting Started
