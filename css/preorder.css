@@ -822,3 +822,15 @@ body {
 .termsPage .contentContainer .rightCol {
   width: 170px;
 }
+.loginPage .mainFrame {
+  margin: 0 96px;
+  top: 76px;
+  min-height: calc(100vh - 86px);
+  position: relative;
+  padding-top: 70px;
+  text-align: center;
+}
+.loginPage .mainFrame .contentContainer {
+  width: 1000px;
+  display: inline-block;
+}

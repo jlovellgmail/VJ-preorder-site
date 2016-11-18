@@ -18,35 +18,31 @@
 
         <script src="/js/login_validation.js"></script>
     </head>
-    <body class="loginBody">
-        <div class="sdWrapper">
-            <div class="sdContent">
-                <?php include 'nav.php'; ?>
-                <div class="navPlaceholder"></div>
-                <div class="widthWrapper">
-                    <div class="tableWrapper tablevh100">
-                        <div class="cellWrapper">
-                            <div class="md-five lg-five leftCol">
-                                
-                                <?php  
-                                    //include '/incs/login.php'; 
-                                    include $rootpath_preorder.'incs/login.php';
-                                ?>
+    <body>
+        <?php include 'nav.php'; ?>
 
 
-                            </div><div class="md-one lg-one"></div><div class="md-five lg-five rightCol">
-                                <?php  include '/incs/signUp.php'; ?>
-                            </div>
-                        </div>
+
+        <div class="loginPage">
+            <div class="mainFrame">
+                <div class="contentContainer">
+                    <div class="md-five lg-five leftCol">
+                        <?php include $rootpath_preorder.'incs/login.php'; ?>
+                    </div>
+                    <div class="md-one lg-one">
+                    </div>
+                    <div class="md-five lg-five rightCol">
+                        <?php  include $rootpath_preorder.'incs/signUp.php'; ?>
                     </div>
                 </div>
             </div>
-            <?php include '/incs/footer.php'; ?>
-            
-            <?php 
-                //include '/incs/footer-links.php'; 
-            ?>
-
         </div>
+
+
+
+        <?php include '/incs/footer.php'; ?>
+        <?php 
+            //include '/incs/footer-links.php'; 
+        ?>
     </body>
 </html>
