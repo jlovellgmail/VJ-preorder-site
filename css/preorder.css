@@ -233,7 +233,7 @@ body {
   height: calc(100vh - 76px - 86px);
   top: 76px;
   position: relative;
-  background-image: url("/preorder/images/about_hero1_7.jpg");
+  background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
   background-position-x: center;
   background-position-y: 70%;
   background-size: cover;
@@ -243,7 +243,7 @@ body {
   background-image: url("/preorder/images/about_hero2_7.jpg");
 }
 .aboutPage .landingFrame .mainFrame.bg3 {
-  background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
+  background-image: url("/preorder/images/about_hero1_7.jpg");
 }
 .aboutPage .landingFrame .mainFrame .textBlockMain {
   color: white;
@@ -786,11 +786,15 @@ body {
   text-align: center;
 }
 .termsPage .contentContainer .navCol {
-  width: 160px;
+  width: 170px;
   display: inline-block;
   text-align: right;
-  padding-right: 40px;
+  padding-right: 50px;
   vertical-align: top;
+  text-transform: uppercase;
+}
+.termsPage .contentContainer .navCol li {
+  margin-bottom: 10px;
 }
 .termsPage .contentContainer .navCol li.active-term-link {
   font-weight: bold;
@@ -802,4 +806,7 @@ body {
   display: inline-block;
   width: calc(100% - 170px - 170px);
   text-align: justify;
+}
+.termsPage .contentContainer .rightCol {
+  width: 170px;
 }
