@@ -44,21 +44,22 @@ body {
   background: rgba(0, 0, 0, 0.15);
 }
 .modalContainer {
-  padding: 160px;
-  display: block;
+  width: 100%;
   height: 100vh;
+  position: relative;
 }
 .modalWindow {
-  width: 100%;
-  height: 100%;
-  display: table;
-  padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  padding-top: 43px;
 }
 .modalWindow .modalClose {
   display: none;
 }
 .modalWindow .contentContainer {
-  display: table-cell;
   vertical-align: middle;
   padding-bottom: 10px;
 }
