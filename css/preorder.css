@@ -822,6 +822,17 @@ body {
 .termsPage .contentContainer .rightCol {
   width: 170px;
 }
+@media all and (max-width: 870px) {
+  body .loginPage .mainFrame .contentContainer .leftColLogin {
+    display: block;
+  }
+  body .loginPage .mainFrame .contentContainer .middleColLogin {
+    display: none;
+  }
+  body .loginPage .mainFrame .contentContainer .rightColLogin {
+    display: block;
+  }
+}
 .loginPage .mainFrame {
   margin: 0 96px;
   top: 76px;
@@ -831,6 +842,19 @@ body {
   text-align: center;
 }
 .loginPage .mainFrame .contentContainer {
-  width: 1000px;
   display: inline-block;
+}
+.loginPage .mainFrame .contentContainer .leftColLogin {
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;
+}
+.loginPage .mainFrame .contentContainer .middleColLogin {
+  display: inline-block;
+  width: 50px;
+}
+.loginPage .mainFrame .contentContainer .rightColLogin {
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;
 }

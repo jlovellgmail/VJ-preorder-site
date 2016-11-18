@@ -26,12 +26,12 @@
         <div class="loginPage">
             <div class="mainFrame">
                 <div class="contentContainer">
-                    <div class="md-five lg-five leftCol">
+                    <div class="leftColLogin">
                         <?php include $rootpath_preorder.'incs/login.php'; ?>
                     </div>
-                    <div class="md-one lg-one">
+                    <div class="middleColLogin">
                     </div>
-                    <div class="md-five lg-five rightCol">
+                    <div class="rightColLogin">
                         <?php  include $rootpath_preorder.'incs/signUp.php'; ?>
                     </div>
                 </div>

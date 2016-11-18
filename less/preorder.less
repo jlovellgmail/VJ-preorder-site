@@ -1023,6 +1023,25 @@ body {
 //-----------------------------------------------
 // Login page
 
+@media all and (max-width: 870px) {
+	body {
+		.loginPage {
+			.mainFrame {
+				.contentContainer {
+					.leftColLogin {
+						display: block;
+					}
+					.middleColLogin {
+						display: none;
+					}
+					.rightColLogin {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
 .loginPage {
 	.mainFrame {
 		margin: 0 96px;
@@ -1032,8 +1051,21 @@ body {
 		padding-top: 70px;
 		text-align: center;
 	    .contentContainer {
-	    	width: 1000px;
 	    	display: inline-block;
+	    	.leftColLogin {
+	    		display: inline-block;
+	    		vertical-align: top;
+	    		width: 280px;
+	    	}
+	    	.middleColLogin {
+	    		display: inline-block;
+	    		width: 50px;
+	    	}
+	    	.rightColLogin {
+	    		display: inline-block;
+	    		vertical-align: top;
+	    		width: 280px;
+	    	}
 	    }
 	}
 }
