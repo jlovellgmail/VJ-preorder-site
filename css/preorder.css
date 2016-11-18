@@ -809,6 +809,7 @@ body {
 }
 .termsPage .contentContainer .navCol li.active-term-link {
   font-weight: bold;
+  text-decoration: underline;
 }
 .termsPage .contentContainer .navCol a {
   cursor: pointer;
