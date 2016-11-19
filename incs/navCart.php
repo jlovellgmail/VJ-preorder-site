@@ -30,8 +30,6 @@ if (isset($_SESSION["Cart"])) {
 
 
 <div class="navDropdownContainer">
-    <!-- <?php if ($CartItmCount>0){ ?>
-    <div class="navNotificationBubble"><?php echo $CartItmCount; ?></div><?php } ?> -->
     <a href="javascript:void(0)" class="navDropdownToggle" id="navDropdownToggle_cartID" >
         <i class="icon-basket"></i>
         <i class="icon-angle-down userHoverArrow"></i>
