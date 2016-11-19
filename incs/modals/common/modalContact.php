@@ -1,27 +1,27 @@
-<div class='rel block' style='min-width: 260px;'>
-	<h6 class="modalTitle caps fw-700 size6">Contact Us</h6>
-	<div class="row" style="text-align: center;">
-		<div class="col xs-three" style="text-align: left;">
-			<p class="fw-700">Phone:</p>
+<div class='modalWrapper-contact'>
+	<div class="title">Contact Us</div>
+	<div class="row">
+		<div class="label">
+			Phone:
 		</div>
-		<div class="col xs-nine" style="text-align: left;">
-			<p><a href="tel:1-323-336-4122">(424) 350-8002</a></p>
-		</div>
-	</div>
-	<div class="row" style="text-align: center;">
-		<div class="col xs-three" style="text-align: left;">
-			<p class="fw-700">Email:</p>
-		</div>
-		<div class="col xs-nine" style="text-align: left;">
-			<p><a href="mailto:support@virgiljames.com">support@virgiljames.com</a></p>
+		<div class="copy">
+			<a href="tel:1-323-336-4122">(424) 350-8002</a>
 		</div>
 	</div>
-	<div class="row" style="text-align: center;">
-		<div class="col xs-three" style="text-align: left;">
-			<p class="fw-700">Mail:</p>
+	<div class="row">
+		<div class="label">
+			Email:
 		</div>
-		<div class="col xs-nine" style="text-align: left;">
-			<p>214 N. Cedros Avenue<br />Solana&nbsp;Beach, CA&nbsp;92075</p>
+		<div class="copy">
+			<a href="mailto:support@virgiljames.com">support@virgiljames.com</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="label">
+			Mail:
+		</div>
+		<div class="copy">
+			214 N. Cedros Avenue<br />Solana&nbsp;Beach, CA&nbsp;92075
 		</div>
 	</div>
 </div>

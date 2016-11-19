@@ -48,6 +48,14 @@ body {
   height: 100vh;
   position: relative;
 }
+.modalContainer .title {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: initial;
+  margin-bottom: 30px;
+}
 .modalWindow {
   position: absolute;
   left: 50%;
@@ -72,6 +80,30 @@ body {
 }
 .modalWindow .contentContainer #injectModal div:first-of-type {
   display: inline-block;
+}
+.modalWindow .modalWrapper-contact .title {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: initial;
+  margin-bottom: 30px;
+}
+.modalWindow .modalWrapper-contact .row {
+  padding-bottom: 11px;
+}
+.modalWindow .modalWrapper-contact .row .label {
+  font-weight: bold;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  width: 80px;
+}
+.modalWindow .modalWrapper-contact .row .copy {
+  display: inline-block;
+  width: 230px;
+  text-align: left;
+  padding-left: 20px;
 }
 @media (min-width: 741px) {
   .modalWindow {
