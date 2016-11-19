@@ -891,3 +891,19 @@ body {
   vertical-align: top;
   width: 280px;
 }
+.loginForm .title {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: initial;
+  text-align: left;
+}
+.signupForm .title {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: initial;
+  text-align: left;
+}
