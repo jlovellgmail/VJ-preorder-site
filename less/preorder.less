@@ -437,6 +437,7 @@ body {
     	min-height: calc(~"100vh - 86px");
 
     	.mainFrame {
+    		text-align: left;
     		margin: 0 96px;
 
     		min-height: calc(~"100vh - 76px - 86px");
@@ -444,15 +445,24 @@ body {
 
     		top: 76px;
     		position: relative;
+    		background-repeat: no-repeat;
+    		
+    		// first version with gray background
+    		/*
     		background-image: url("/preorder/images/tote_hero_7.jpg");
     		background-position-x: -400px;
     		background-position-y: center;
-    		background-repeat: no-repeat;
     		background-size: 100%;
-    	    text-align: left;
+    		background-color: #f2f1f2;
+			*/
 
-    	    //background-color: #e4e4e3;
-    	    background-color: #f2f1f2;
+			// second version with white background
+    		background-image: url("/preorder/images/tote_hero_whitebg_q7.jpg");
+    		background-position-x: -360px;
+    		background-position-y: calc(~"50% + 88px");
+    		background-size: 100%;
+
+
     		
     		.preorderText {
     			color: black;
