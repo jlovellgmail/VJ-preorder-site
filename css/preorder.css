@@ -62,14 +62,20 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 30px;
-  padding-top: 43px;
-}
-.modalWindow .modalClose {
-  display: none;
+  min-width: 600px;
+  min-height: 500px;
+  display: table;
 }
 .modalWindow .contentContainer {
+  display: table-cell;
   vertical-align: middle;
   padding-bottom: 10px;
+}
+.modalWindow .contentContainer .modalImage {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
 .modalWindow .contentContainer #injectModal {
   /*
@@ -218,17 +224,7 @@ body {
   background-image: url("../images/label_with_edition_number_IMG_5437_RT.jpg");
 }
 .aboutPage .itemContainer .image#qualityMaterials {
-  /*
-				background-image: url("../images/stock-photo-milan-italy-october-artisans-working-bindery-workshop-in-milan-501921775.jpg");
-				background-size: 350%;
-				background-position-y: 79%;
-				background-position-x: 52%;
-				*/
-  /*
-				background-image: url("../images/stock-photo-leather-crafting-tools-on-working-desk-with-a-low-depth-of-field-194796281.jpg");
-				background-size: 116%;
-				*/
-  background-image: url("../images/stock-photo-italy-naples-industrial-cow-leather-in-a-leather-factory-108905747.jpg");
+  background-image: url("../images/bonaudo.jpg");
   background-position-y: 25%;
   background-size: 104%;
   background-position-x: 30%;
