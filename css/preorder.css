@@ -71,12 +71,6 @@ body {
   vertical-align: middle;
   padding-bottom: 10px;
 }
-.modalWindow .contentContainer .modalImage {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}
 .modalWindow .contentContainer #injectModal {
   /*
 			.modal-wrapper-400 {
