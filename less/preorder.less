@@ -81,11 +81,14 @@ body {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	padding: 30px;
-	padding-top: 43px;
+	min-width: 600px;
+    min-height: 500px;
+    display: table;
 	.modalClose {
-		display: none;
+		// display: none;
 	}
 	.contentContainer {
+		display: table-cell;
 		vertical-align: middle;
 		padding-bottom: 10px;
 		#injectModal {
