@@ -890,20 +890,22 @@ body {
   width: 170px;
   display: inline-block;
   text-align: right;
-  padding-right: 23px;
   vertical-align: top;
   text-transform: uppercase;
+}
+.termsPage .contentContainer .navCol ul {
+  padding-right: 23px;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 10px;
 }
-.termsPage .contentContainer .navCol li {
+.termsPage .contentContainer .navCol ul li {
   margin-bottom: 14px;
 }
-.termsPage .contentContainer .navCol li.active-term-link {
+.termsPage .contentContainer .navCol ul li.active-term-link {
   font-weight: bold;
   text-decoration: underline;
 }
-.termsPage .contentContainer .navCol a {
+.termsPage .contentContainer .navCol ul a {
   cursor: pointer;
 }
 .termsPage .contentContainer .contentCol {

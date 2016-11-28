@@ -28,6 +28,8 @@ $seo_variable = "home";
 
 			<div class='navCol'>
 				<ul id='sticky-terms'>
+
+
 					<li class='guarantee-link active-term-link'><a>Guarantee</a></li>
 					<li class='shipping-link'><a>Shipping</a></li>
 					<li class='privacy-link'><a>Privacy</a></li>
@@ -138,10 +140,16 @@ $seo_variable = "home";
 	<?php include "/incs/footer.php"; ?>
 
 
-	<script type="text/javascript" src="preorder/js/jquery.sticky.js"></script>
+	<!-- <script type="text/javascript" src="http://virgiljames.net/preorder/js/jquery.sticky.js"></script> -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.3/jquery.sticky.js"></script>
+
+
 	<script>
 	$(window).load(function(){
-		$("#sticky-terms").sticky({ topSpacing: 48 });
+		
+		// $("#sticky-terms").sticky({ topSpacing: 48 });
+		$("#sticky-terms").sticky({ topSpacing: 148 });
+
 	});
 	$('.guarantee-link').on('click', function(){
 	    $('.guarantee-link').addClass('active-term-link');
