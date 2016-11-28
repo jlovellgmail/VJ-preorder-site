@@ -6,10 +6,27 @@ body {
   height: 76px;
 }
 .bodyCopy {
-  font-size: 15px;
-  line-height: 20px;
-  text-align: left;
+  /*
+	font-size: 15px;
+	line-height: 20px;
+	text-align: left;
+	display: inline-block;
+	*/
+  color: rgba(0, 0, 0, 0.9);
+  max-width: 530px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
   display: inline-block;
+}
+.sectionHeading {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: initial;
+  margin-bottom: 8px;
+  margin-top: 20px;
 }
 .page {
   width: 100%;
@@ -655,9 +672,24 @@ body {
   font-weight: 100;
 }
 .productPage .productDescription {
-  font-size: 15px;
+  /*
+		font-size: 15px;
+		margin-top: 12px;
+		line-height: 20px;
+		*/
+  /*
+	font-size: 15px;
+	line-height: 20px;
+	text-align: left;
+	display: inline-block;
+	*/
+  color: rgba(0, 0, 0, 0.9);
+  max-width: 530px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  display: inline-block;
   margin-top: 12px;
-  line-height: 20px;
 }
 .productPage .addToCartButton {
   background-color: black;
@@ -728,7 +760,7 @@ body {
 }
 .productPage .rowDetails {
   font-family: proxima-nova, sans-serif;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 .productPage .rowDetails .blurb {
   display: inline-block;
@@ -737,12 +769,22 @@ body {
   vertical-align: top;
 }
 .productPage .rowDetails .blurb .heading {
+  /*
+				text-transform: uppercase;
+				font-weight: 800;
+			    font-size: 21px;
+			    margin-bottom: 8px;
+			    */
   text-transform: uppercase;
-  font-weight: 800;
-  font-size: 21px;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: initial;
   margin-bottom: 8px;
+  margin-top: 20px;
 }
 .productPage .rowDetails .specs {
+  margin-top: 53px;
   display: inline-block;
   text-align: left;
   margin-left: 50px;
@@ -753,10 +795,22 @@ body {
   margin-bottom: 20px;
 }
 .productPage .rowDetails .specs .heading {
+  /*
+				text-transform: uppercase;
+				font-weight: 800;
+			    font-size: 18px;
+			    margin-bottom: 3px;
+			    */
   text-transform: uppercase;
-  font-weight: 800;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  line-height: initial;
+  margin-bottom: 8px;
+  margin-top: 20px;
   font-size: 18px;
-  margin-bottom: 3px;
+  font-weight: 800;
+  margin: 0;
 }
 .productPage .featuresSection {
   margin-top: 70px;
