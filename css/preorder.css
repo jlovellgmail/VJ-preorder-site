@@ -223,6 +223,9 @@ body {
   background-size: cover;
   background-position-y: center;
 }
+.aboutPage .itemContainer .image#designPrinciples {
+  background-image: url("../images/techpacks_q6.jpg");
+}
 .aboutPage .itemContainer .image#whatMakesUsUnique {
   background-image: url("../images/IMG_5383_RT.jpg");
 }
