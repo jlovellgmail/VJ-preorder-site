@@ -379,7 +379,7 @@ body {
 		    	    line-height: 92px;
 	    	        margin-bottom: 6px;
 	    	        */
-  font-size: 70px;
+  font-size: 57px;
   line-height: 69px;
   margin-bottom: 11px;
   text-transform: uppercase;
@@ -831,9 +831,10 @@ body {
   width: 170px;
   display: inline-block;
   text-align: right;
-  padding-right: 50px;
+  padding-right: 23px;
   vertical-align: top;
   text-transform: uppercase;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 .termsPage .contentContainer .navCol li {
   margin-bottom: 10px;
@@ -848,7 +849,8 @@ body {
 .termsPage .contentContainer .contentCol {
   display: inline-block;
   width: calc(100% - 170px - 170px);
-  text-align: justify;
+  text-align: left;
+  padding: 0 10px 0 50px;
 }
 .termsPage .contentContainer .rightCol {
   width: 170px;
