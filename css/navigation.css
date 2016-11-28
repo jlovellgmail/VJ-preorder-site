@@ -92,13 +92,6 @@
   position: relative;
   display: inline-block;
 }
-@media all and (max-width: 1020px) {
-  body .logoWrapper {
-    position: absolute;
-    left: 95px;
-    top: 13px;
-  }
-}
 .logoLink {
   position: relative;
   display: block;
@@ -300,9 +293,6 @@
 }
 /* Media Queries */
 @media all and (min-width: 641px) {
-  .navLogo {
-    padding: 15px 0;
-  }
   .navLinksWrapper {
     display: inline;
   }
@@ -314,9 +304,6 @@
   }
 }
 @media all and (min-width: 741px) {
-  .navLogo {
-    padding: 13px 0;
-  }
   .navBurgerWrapper {
     right: 30px;
   }
@@ -327,20 +314,13 @@
     margin-right: 14px;
   }
 }
-@media all and (min-width: 741px) {
-  .logoWrapper {
-    left: 30px;
-  }
-}
 @media all and (min-width: 961px) {
-  .navLogo {
-    padding-bottom: 10px;
-    /* JL */
-    /*
-		padding-top: 10px;
-		*/
-    padding-top: 16px;
-  }
+  /*
+	.navLogo {
+		padding-bottom: 10px;
+		padding-top: 16px;
+	}
+	*/
   .navLinksWrapper {
     right: 120px;
   }
