@@ -418,40 +418,23 @@ body {
     			width: 680px;
     		    display: inline-block;
     		    position: absolute;
-    		    top: 11vh;
-    		    right: 9%;
     		    text-align: center;
+    		    top: 41%;
+    		    right: 31%;
+    		    transform: translate(50%, -50%);
     		    .headline {
-	    	        font-size: 57px;
-    	            line-height: 69px;
-	    	        margin-bottom: 11px;
-	    			text-transform: uppercase;
+	    	        font-size: 32px;
+	    			text-transform: capitalize;
 	    			font-weight: 100;
+    			    color: rgba(0,0,0, .6);
     		    }
-    		    .copy {
-    		    	max-width: 600;
-    		    	font-size: 21px;
-    		    	font-weight: 300;
-    		    	line-height: 33px;
-    		    	display: inline-block;
-    		    }
-	    		.hline {
-	    			border-bottom: 1px solid rgba(0,0,0, .2);
-	    			height: 1px;
-	    			max-width: 550px;
-	    			margin-left: auto;
-	    			margin-right: auto;
-	    			margin-top: 40px;
-	    		}
 				.titleContainer {
-					padding-top: 30px;
 					text-align: center;
+					margin: 9px 0 9px 0;
 			    	.title {
 			    		color: black;
-		    		    font-size: 30px;
-		    			letter-spacing: 1px;
+	    		        font-size: 43px;
 			    		text-transform: uppercase;
-			    		padding-bottom: 26px;
 			    		text-rendering: geometricPrecision;
 			    		.part1 {
 			    			font-weight: 600;
@@ -460,27 +443,61 @@ body {
 			    		.part2 {
 			    			font-weight: 100;
 			    			display: inline-block;
-			    			margin-left: 8px;
-			    			letter-spacing: 2px;
+			    			margin-left: 5px;
 			    		}
 			    	}
 			    }
+    		    .copy {
+    		    	max-width: 540px;
+    		    	font-size: 18px;
+    		    	font-weight: 300;
+    		    	line-height: 27px;
+    		    	display: inline-block;
+    		    }
+	    		.hline {
+	    			border-bottom: 1px solid rgba(0,0,0, .2);
+	    			height: 1px;
+	    			max-width: 550px;
+	    			margin-left: auto;
+	    			margin-right: auto;
+	    			margin-top: 30px;
+	    			margin-bottom: 30px;
+	    		}
 		    	.boxes {
 		    		text-align: center;
+		    		display: inline-block;
+		    		border: 1px solid black;
+		    		margin-top: 30px;
+		    		.vline {
+		    			width: 1px;
+		    			height: 100px;
+		    			border-left: 1px solid rgba(0,0,0, .2);
+		    			display: inline-block;
+		    			vertical-align: middle;
+		    		}
 		    		.box {
 		    			cursor: pointer;
-					    padding: 43px 0;
+					    padding: 50px 0;
+					    vertical-align: middle;
 					    width: 212px;
-					    font-size: 17px;
 					    text-transform: uppercase;
-	    				letter-spacing: 1.4px;
 		    			color: black;
 		    			display: inline-block;
-		    			margin: 0 1px;
-					    margin-top: 3px;
-					    border: 2px solid black;
 					    transition: .3s;
-					    font-weight: 600;
+					    font-size: 22px;
+					    font-weight: 800;
+					    letter-spacing: .7px;
+					    text-rendering: geometricPrecision;
+					    .title {
+					    	display: inline-block;
+					    }
+					    .subtitle {
+					    	font-size: 12px;
+					    	text-transform: uppercase;
+					    	font-weight: 500;
+					    	letter-spacing: .8px;
+					    	margin-top: 2px;
+					    }
 					    &:hover {
 				    	    background-color: rgba(255, 255, 255, 0.2);
 					    }
@@ -929,12 +946,12 @@ body {
 		.headline {
 	    	text-transform: uppercase;
 	    	font-weight: 100;
-	    	font-size: 50px;
+	    	font-size: 40px;
     	    line-height: 69px;
-            margin-bottom: 40px;
-	        padding-left: 170px;
+            margin-bottom: 16px;
+	        padding-left: 220px;
 	        padding-right: 170px;
-	        text-align: center;
+	        text-align: left;
 		}
 		.navCol {
 			width: 170px;

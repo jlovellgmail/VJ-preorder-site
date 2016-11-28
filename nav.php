@@ -26,12 +26,29 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
                 <a href="preorder/index.php">Shop</a>
                 <a href="preorder/about.php">About</a>
             </div>
-            <div id="CartNavContainer" class="iconWrapper cartIconWrapper cartDropdownWrapper">
-                <?php include $rootpath.'/incs/navCart.php'; ?>
-            </div>
-            <div class="iconWrapper userDropdownWrapper">
-                <?php include $rootpath.'/incs/navUser.php'; ?>
-            </div>
+
+            
+
+            <!-- <div id="CartNavContainer" class="iconWrapper cartIconWrapper cartDropdownWrapper"> -->
+                <?php 
+                    //include $rootpath.'/incs/navCart.php'; 
+                ?>
+            <!-- </div> -->
+            <a class="iconWrapper" href="javascript:goToCheckout();">
+                <i class="icon-basket"></i>
+            </a>           
+
+
+            <!-- <div class="iconWrapper userDropdownWrapper"> -->
+                <?php 
+                    //include $rootpath.'/incs/navUser.php'; 
+                ?>
+            <!-- </div> -->
+            <a class="iconWrapper" href="preorder/login.php">
+                <i class="icon-torso"></i>
+            </a>
+
+
         </div>
 
 

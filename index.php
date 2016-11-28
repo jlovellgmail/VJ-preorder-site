@@ -20,34 +20,66 @@ $seo_variable = "home";
 
 
 				<div class="preorderText">
-
-
 					<div class="headline">
-						Early Access
+						Exclusive Preview
 					</div>
-					<div class="copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales lorem nulla, non finibus lacus interdum eu. Nam et ligula efficitur, volutpat tortor sed, pulvinar leo. Vestibulum condimentum nisl augue, ut mollis nunc tempus vel. In sed felis tellus.
-					</div>
-					<div class="hline">
-					</div>
-
-
 					<div class="titleContainer">
 						<div class="title">
 							<div class="part1">Cityline</div><div class="part2">Collections</div>
 						</div>
 					</div>
+					<div class="copy">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales lorem nulla, non finibus lacus interdum eu. Nam et ligula efficitur, volutpat tortor sed, pulvinar leo. Vestibulum condimentum nisl augue, ut mollis nunc tempus vel. In sed felis tellus.
+					</div>
+					
+
+					<!--
+					<div class="hline">
+					</div>
+					-->
+
+
 					<div class="boxes">
+
+
+						<!--
 						<a href="preorder/collection_reykjavik.php">
 							<div class="box">
-								Reykjavik
-							</div>
+						-->
+						<a class="box" href="preorder/collection_reykjavik.php">
+
+								<div class="title">
+									Reykjavik
+								</div>
+								<div class="subtitle">
+									Collection
+								</div>
+							<!-- 
+							</div> 
+							-->
 						</a>
+
+
+						<div class="vline">
+						</div>
+
+						<!--
 						<a href="preorder/collection_santafe.php">
 							<div class="box">
-								Santa Fe
+						-->
+						<a class="box" href="preorder/collection_santafe.php">
+								<div class="title">
+									Santa Fe
+								</div>
+								<div class="subtitle">
+									Collection
+								</div>
+							<!--
 							</div>
+							-->
 						</a>
+
+
 					</div>
 
 
