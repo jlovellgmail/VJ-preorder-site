@@ -47,9 +47,6 @@ $seo_variable = "home";
 					<div class="productDescription">
 						For everyday, multi-purpose use, it's hard to beat this bag. Made with premium calfskin leather, the Drawstring can be carried as a backpack, as a cross body, or as a tote with two handles. Extraordinary craftsmen will make only 300 bags of this style to celebrate Reykjavik.
 					</div>
-					<div class="productMoreDetails">
-						Details
-					</div>
 					<div class="addToCartButton">
 						Add to cart
 					</div>
@@ -78,7 +75,7 @@ $seo_variable = "home";
 			<div class="rowDetails">
 				<div class="blurb">
 					<div class="heading">
-						Product Details
+						Details
 					</div>
 					<div class="bodyCopy">
 						This multi-purpose bag is a customer favorite. It can be used as a backpack, as a cross body, or as a tote with two handles - thanks to the straps that can be easily adjusted with a pair of custom carabiners. Made with premium black calfskin and custom bronze components. Two horizontal outside pockets with oversized zippers. One interior zippered pocket. Water resistant lining. Made in USA. Only 300 bags in this limited edition series will be made to celebrate Reykjavik.
