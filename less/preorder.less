@@ -13,6 +13,16 @@ body {
 	background-color: white;
 	height: @navHeight;
 }
+.vjHeadline1 {
+	// used in:
+	// product name
+	// collection name
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: inline-block;
+}
 .bodyCopy {
 
 	/*
@@ -229,8 +239,6 @@ body {
 			.mainFrame {
 				background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
 				.textBlockMain {
-					top: 33%;
-					left: 18%;
 				}
 			}
 		}
@@ -338,26 +346,50 @@ body {
     		background-position-y: 70%;
     		background-size: cover;
     	    text-align: left;
+    	    overflow: hidden;
     		.textBlockMain {
     			color: white;
     			max-width: 680px;
     			width: 80%;
     		    display: inline-block;
     		    position: relative;
-    		    top: 18vh;
-    		    left: 10%;
+    		    top: 50%;
+    		    transform: translateY(-50%);
+    		    left: 18%;
     		    .headline {
     		    	font-size: 70px;
 		    	    line-height: 69px;
 	    	        margin-bottom: 11px;
+	    	        position: relative;
     		    }
     		    .copy {
+
+    		    	/*
     		    	max-width: 550px;
     		    	font-size: 24px;
     		    	font-weight: 300;
     		    	line-height: 35px;
+    		    	position: relative;
+    		    	*/
+    		    	.bodyCopy;
+    		    	color: white;
+    		    	max-width: 550px;
+    		    	font-weight: 300;
+    		    	position: relative;
+    		    	max-width: 580px;
+    		    	display: inline-block;
+    		    	line-height: 31px;
+    		    	letter-spacing: .3px;
+    		    	font-size: 21px;
     		    }
     		}
+	    	.blackGlow {
+    			position: absolute;
+    			transform: translate(-50%, -50%);
+    			left: 34%;
+    			top: 51%;
+    			opacity: .24;
+	    	}
     	}
     	.downArrow {
     		width: 37px;
@@ -664,20 +696,18 @@ body {
 		text-align: left;
 		padding-left: 92px;
 		.headline {
-			margin-top: 50px;
+			margin-top: 60px;
 			color: black;
 		    font-size: 36px;
 			letter-spacing: 1px;
 			text-transform: uppercase;
 			.part1 {
-				font-weight: 600;
-				display: inline-block;
+				.vjHeadline1;
 			}
 			.part2 {
+				.vjHeadline1;
 				font-weight: 100;
-				display: inline-block;
 				margin-left: 8px;
-				letter-spacing: 2px;
 			}
 		}
 		.text {
@@ -728,7 +758,7 @@ body {
 	.row {
     	margin-top: 50px;
     	&.first {
-    		margin-top: 30px;
+    		margin-top: 10px;
     	}
 		.item {
 			width: 33%;
@@ -792,9 +822,7 @@ body {
 		font-weight: 600;
 	}
 	.productTitle {
-		font-size: 36px;
-		font-weight: bold;
-		text-transform: uppercase;
+		.vjHeadline1;
 		margin-top: 10px;
 	}
 	.productPrice {
@@ -928,7 +956,7 @@ body {
 		}
 	}
 	.featuresSection {
-	    margin-top: 70px;
+	    margin-top: 40px;
 		.featuresContainer {
 		    background-color: rgba(0,0,0, .03);
 		    width: 930px;
@@ -1001,8 +1029,9 @@ body {
 			vertical-align: top;
 			text-transform: uppercase;
 		    border-right: 1px solid rgba(0,0,0, .2);
+		    padding-bottom: 10px;
 			li {
-				margin-bottom: 10px;
+				margin-bottom: 14px;
 				&.active-term-link {
 					font-weight: bold;
 					text-decoration: underline;

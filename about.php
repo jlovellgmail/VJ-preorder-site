@@ -18,6 +18,9 @@ $seo_variable = "home";
 		<div class="landingFrame">
 			<div class="mainFrame">
 				<div class="textBlockMain">
+					<div class="blackGlow">
+						<img src="/preorder/images/black_blur.png" />
+					</div>
 					<div class="headline">
 						Getting Started
 					</div>
