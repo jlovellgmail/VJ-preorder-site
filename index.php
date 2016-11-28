@@ -43,12 +43,11 @@ $seo_variable = "home";
 								Reykjavik
 							</div>
 						</a>
-						<div class="box">
-							Santa Fe
-						</div>
-						<div class="box">
-							Buenos Aires
-						</div>
+						<a href="preorder/collection_santafe.php">
+							<div class="box">
+								Santa Fe
+							</div>
+						</a>
 					</div>
 
 
