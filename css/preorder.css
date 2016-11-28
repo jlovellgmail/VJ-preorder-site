@@ -239,15 +239,6 @@ body {
   background-position-x: 30%;
 }
 .aboutPage .itemContainer .headline {
-  /*
-			text-transform: uppercase;
-			font-size: 26px;
-			font-weight: 500;
-			letter-spacing: .5px;
-			line-height: initial;
-			margin-bottom: 8px;
-			margin-top: 20px;
-			*/
   text-transform: uppercase;
   font-size: 26px;
   font-weight: 500;
