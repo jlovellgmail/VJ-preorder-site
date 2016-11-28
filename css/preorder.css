@@ -530,22 +530,31 @@ body {
     font-size: 20px;
   }
 }
+.vjWidth {
+  width: calc(100% - 95px - 95px);
+  margin-left: auto;
+  margin-right: auto;
+}
 .collectionPage {
   min-height: 100%;
   top: 76px;
   position: relative;
+  width: calc(100% - 95px - 95px);
+  margin-left: auto;
+  margin-right: auto;
 }
 .collectionPage .widthWrapper {
-  width: calc(100% - 95px - 95px);
+  width: 1170px;
 }
 .collectionPage .topRow {
   min-height: 40px;
   text-align: left;
+  padding-left: 92px;
 }
 .collectionPage .topRow .headline {
   margin-top: 50px;
   color: black;
-  font-size: 46px;
+  font-size: 36px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -561,8 +570,8 @@ body {
 }
 .collectionPage .topRow .text {
   color: rgba(0, 0, 0, 0.9);
-  max-width: 630px;
-  font-size: 19px;
+  max-width: 530px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 30px;
   margin-top: 13px;
@@ -600,13 +609,9 @@ body {
 .productsGrid .row .item .caption {
   text-align: left;
   position: absolute;
-  /*
-				bottom: 30px;
-				left: 130px;
-				*/
-  top: 86%;
-  left: 25%;
-  font-size: 19px;
+  bottom: 0;
+  left: 98px;
+  font-size: 16px;
 }
 .productsGrid .row .item .caption .title {
   text-transform: uppercase;

@@ -31,21 +31,21 @@ $seo_variable = "home";
 			<div class="productsGrid">
 				<div class="row first">
 					<a class="item" href="preorder/reykjavik_drawstring.php">
-						<img src="../images/drawstring_161127.jpg" />
+						<img src="../images/drawstring_11.15.jpg" />
 						<div class="caption">
 							<div class="title">Drawstring</div>
 							<div class="price">$1,695</div>
 						</div>
 					</a>
 					<div class="item">
-						<img src="../images/clutch_161127.jpg" />
+						<img src="../images/clutch_11.15.jpg" />
 						<div class="caption">
 							<div class="title">Clutch</div>
 							<div class="price">$995</div>
 						</div>
 					</div>
 					<div class="item">
-						<img src="../images/overnight_161127.jpg" />
+						<img src="../images/overnight_11.15.jpg" />
 						<div class="caption">
 							<div class="title">Overnight</div>
 							<div class="price">$2,295</div>
@@ -54,21 +54,21 @@ $seo_variable = "home";
 				</div>
 				<div class="row">
 					<div class="item">
-						<img src="../images/satchel_161127.jpg" />
+						<img src="../images/satchel_11.15.jpg" />
 						<div class="caption">
 							<div class="title">Satchel</div>
 							<div class="price">$2,295</div>
 						</div>
 					</div>
 					<div class="item">
-						<img src="../images/weekender_161127.jpg" />
+						<img src="../images/weekender_11.15.jpg" />
 						<div class="caption">
 							<div class="title">Weekender</div>
 							<div class="price">$3,095</div>
 						</div>
 					</div>
 					<div class="item">
-						<img src="../images/backpack_161127.jpg" />
+						<img src="../images/backpack_11.15.jpg" />
 						<div class="caption">
 							<div class="title">Backpack</div>
 							<div class="price">$2,395</div>
@@ -77,14 +77,14 @@ $seo_variable = "home";
 				</div>
 				<div class="row row3">
 					<div class="item">
-						<img src="../images/tote_161127.jpg" />
+						<img src="../images/tote_11.15.jpg" />
 						<div class="caption">
 							<div class="title">Tote</div>
 							<div class="price">$3,095</div>
 						</div>
 					</div>
 					<div class="item">
-						<img src="../images/crossbody_161127.jpg" />
+						<img src="../images/crossbody_11.15.jpg" />
 						<div class="caption">
 							<div class="title">Crossbody</div>
 							<div class="price">$2,395</div>
