@@ -31,59 +31,28 @@ $seo_variable = "home";
 					<div class="copy">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales lorem nulla, non finibus lacus interdum eu. Nam et ligula efficitur, volutpat tortor sed, pulvinar leo. Vestibulum condimentum nisl augue, ut mollis nunc tempus vel. In sed felis tellus.
 					</div>
-					
-
-					<!--
-					<div class="hline">
-					</div>
-					-->
-
-
 					<div class="boxes">
-
-
-						<!--
-						<a href="preorder/collection_reykjavik.php">
-							<div class="box">
-						-->
 						<a class="box" href="preorder/collection_reykjavik.php">
-
-								<div class="title">
-									Reykjavik
-								</div>
-								<div class="subtitle">
-									Collection
-								</div>
-							<!-- 
-							</div> 
-							-->
+							<div class="title">
+								Reykjavik
+							</div>
+							<div class="subtitle">
+								Collection
+							</div>
 						</a>
-
-
 						<div class="vline">
 						</div>
-
-						<!--
-						<a href="preorder/collection_santafe.php">
-							<div class="box">
-						-->
 						<a class="box" href="preorder/collection_santafe.php">
-								<div class="title">
-									Santa Fe
-								</div>
-								<div class="subtitle">
-									Collection
-								</div>
-							<!--
+							<div class="title">
+								Santa Fe
 							</div>
-							-->
+							<div class="subtitle">
+								Collection
+							</div>
 						</a>
-
-
 					</div>
-
-
 				</div>
+
 
 
 
@@ -93,8 +62,6 @@ $seo_variable = "home";
 
 
 	<?php include "/incs/footer.php"; ?>
-
-
 </body>
 </html>
 

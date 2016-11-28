@@ -13,6 +13,11 @@ body {
 	background-color: white;
 	height: @navHeight;
 }
+.vjWidth {
+	width: calc(~"100% - 95px - 95px");
+	margin-left: auto;
+	margin-right: auto;
+}
 .vjHeadline1 {
 	// used in:
 	// product name
@@ -24,14 +29,6 @@ body {
 	display: inline-block;
 }
 .bodyCopy {
-
-	/*
-	font-size: 15px;
-	line-height: 20px;
-	text-align: left;
-	display: inline-block;
-	*/
-
 	color: rgba(0, 0, 0, 0.9);
 	max-width: 530px;
 	font-size: 18px;
@@ -41,7 +38,7 @@ body {
 
 
 }
-.sectionHeading {
+.vjSectionHeading {
 	text-transform: uppercase;
     font-size: 26px;
     font-weight: 500;
@@ -261,7 +258,6 @@ body {
 				background-image: url("/preorder/images/about_hero1_7.jpg");
 			}
 		}
-
 	}
 	.itemContainer {
 		display: block;
@@ -297,6 +293,8 @@ body {
 			}
 		}
 		.headline {
+
+			/*
 			text-transform: uppercase;
 			font-size: 26px;
 			font-weight: 500;
@@ -304,6 +302,9 @@ body {
 			line-height: initial;
 			margin-bottom: 8px;
 			margin-top: 20px;
+			*/
+			.vjSectionHeading;
+
 		}
 		.textBlock {
 			width: 610px;
@@ -363,14 +364,6 @@ body {
 	    	        position: relative;
     		    }
     		    .copy {
-
-    		    	/*
-    		    	max-width: 550px;
-    		    	font-size: 24px;
-    		    	font-weight: 300;
-    		    	line-height: 35px;
-    		    	position: relative;
-    		    	*/
     		    	.bodyCopy;
     		    	color: white;
     		    	max-width: 550px;
@@ -556,9 +549,6 @@ body {
 					    }
 		    		}
 		    	}
-
-
-
     		}
     	}
     }
@@ -668,7 +658,6 @@ body {
     			}
     		}
     	}
-
 	}
 }
 
@@ -676,12 +665,6 @@ body {
 //-----------------------------------------------
 //-----------------------------------------------
 // Collection page
-
-.vjWidth {
-	width: calc(~"100% - 95px - 95px");
-	margin-left: auto;
-	margin-right: auto;
-}
 
 .collectionPage {
 	min-height: 100%;
@@ -831,15 +814,8 @@ body {
 		font-weight: 100;
 	}
 	.productDescription {
-
-		/*
-		font-size: 15px;
-		margin-top: 12px;
-		line-height: 20px;
-		*/
 		.bodyCopy;
 		margin-top: 12px;
-
 	}
 	.addToCartButton {
 		background-color: black;
@@ -919,14 +895,7 @@ body {
 			text-align: left;
 			vertical-align: top;
 			.heading {
-
-				/*
-				text-transform: uppercase;
-				font-weight: 800;
-			    font-size: 21px;
-			    margin-bottom: 8px;
-			    */
-			    .sectionHeading;
+			    .vjSectionHeading;
 			}
 		}
 		.specs {
@@ -940,18 +909,10 @@ body {
 				margin-bottom: 20px;
 			}
 			.heading {
-
-				/*
-				text-transform: uppercase;
-				font-weight: 800;
-			    font-size: 18px;
-			    margin-bottom: 3px;
-			    */
-			    .sectionHeading;
+			    .vjSectionHeading;
 			    font-size: 18px;
 			    font-weight: 800;
 			    margin: 0;
-
 			}
 		}
 	}
@@ -1012,14 +973,9 @@ body {
 		max-width: 1060px;
 		text-align: left;
 		.headline {
-	    	text-transform: uppercase;
-	    	font-weight: 100;
-	    	font-size: 40px;
-    	    line-height: 69px;
-            margin-bottom: 16px;
+	        .vjSectionHeading;
 	        padding-left: 220px;
-	        padding-right: 170px;
-	        text-align: left;
+	        margin-bottom: 32px;
 		}
 		.navCol {
 			width: 170px;
