@@ -625,9 +625,6 @@ body {
   display: inline-block;
   width: 20px;
 }
-.productsGrid .row.row3 .item .caption {
-  bottom: 10px;
-}
 .productPage .widthWrapper {
   max-width: 1170px;
 }
