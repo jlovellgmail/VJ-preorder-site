@@ -82,7 +82,7 @@ body {
 .modalWindow {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 47%;
   transform: translate(-50%, -50%);
   padding: 30px;
   min-width: 600px;
@@ -91,8 +91,8 @@ body {
 }
 .modalWindow .contentContainer {
   display: table-cell;
-  vertical-align: middle;
-  padding-bottom: 10px;
+  vertical-align: bottom;
+  padding-bottom: 40px;
 }
 .modalWindow .contentContainer #injectModal div:first-of-type {
   display: inline-block;
@@ -105,17 +105,22 @@ body {
   line-height: initial;
   margin-bottom: 30px;
 }
-.modalWindow .modalWrapper-contact .row {
+.modalWindow .modalWrapper-contact .box {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 70px;
+  padding-bottom: 66px;
+}
+.modalWindow .modalWrapper-contact .box .row {
   padding-bottom: 11px;
 }
-.modalWindow .modalWrapper-contact .row .label {
+.modalWindow .modalWrapper-contact .box .row .label {
   font-weight: bold;
   display: inline-block;
   text-align: right;
   vertical-align: top;
   width: 80px;
 }
-.modalWindow .modalWrapper-contact .row .copy {
+.modalWindow .modalWrapper-contact .box .row .copy {
   display: inline-block;
   width: 230px;
   text-align: left;
@@ -301,9 +306,9 @@ body {
   left: 18%;
 }
 .aboutPage .landingFrame .mainFrame .textBlockMain .headline {
-  font-size: 70px;
+  font-size: 49px;
   line-height: 69px;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
   position: relative;
 }
 .aboutPage .landingFrame .mainFrame .textBlockMain .copy {
@@ -313,21 +318,20 @@ body {
   font-weight: 400;
   line-height: 26px;
   color: white;
-  max-width: 550px;
-  font-weight: 300;
   position: relative;
   max-width: 580px;
   display: inline-block;
   line-height: 31px;
   letter-spacing: .3px;
-  font-size: 21px;
+  font-weight: 200;
+  font-size: 19px;
 }
 .aboutPage .landingFrame .mainFrame .blackGlow {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 34%;
   top: 51%;
-  opacity: .24;
+  opacity: .3;
 }
 .aboutPage .landingFrame .downArrow {
   width: 37px;

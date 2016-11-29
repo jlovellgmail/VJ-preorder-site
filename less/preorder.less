@@ -100,7 +100,7 @@ body {
 .modalWindow {
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 47%;
 	transform: translate(-50%, -50%);
 	padding: 30px;
 	min-width: 600px;
@@ -110,8 +110,8 @@ body {
 	}
 	.contentContainer {
 		display: table-cell;
-		vertical-align: middle;
-		padding-bottom: 10px;
+		vertical-align: bottom;
+		padding-bottom: 40px;
 		#injectModal {
 			div:first-of-type {
 				display: inline-block;
@@ -128,20 +128,25 @@ body {
 			line-height: initial;
 			margin-bottom: 30px;
 		}
-		.row {
-			padding-bottom: 11px;
-			.label {
-				font-weight: bold;
-				display: inline-block;
-				text-align: right;
-			    vertical-align: top;
-		        width: 80px;
-			}
-			.copy {
-				display: inline-block;
-				width: 230px;
-				text-align: left;
-				padding-left: 20px;
+		.box {
+			border: 1px solid rgba(0,0,0, .4);
+			padding: 70px;
+			padding-bottom: 66px;
+			.row {
+				padding-bottom: 11px;
+				.label {
+					font-weight: bold;
+					display: inline-block;
+					text-align: right;
+				    vertical-align: top;
+			        width: 80px;
+				}
+				.copy {
+					display: inline-block;
+					width: 230px;
+					text-align: left;
+					padding-left: 20px;
+				}
 			}
 		}
 	}
@@ -352,22 +357,21 @@ body {
     		    transform: translateY(-50%);
     		    left: 18%;
     		    .headline {
-    		    	font-size: 70px;
+    		    	font-size: 49px;
 		    	    line-height: 69px;
-	    	        margin-bottom: 11px;
+	    	        margin-bottom: 10px;
 	    	        position: relative;
     		    }
     		    .copy {
     		    	.bodyCopy;
     		    	color: white;
-    		    	max-width: 550px;
-    		    	font-weight: 300;
     		    	position: relative;
     		    	max-width: 580px;
     		    	display: inline-block;
     		    	line-height: 31px;
     		    	letter-spacing: .3px;
-    		    	font-size: 21px;
+    		    	font-weight: 200;
+    		    	font-size: 19px;
     		    }
     		}
 	    	.blackGlow {
@@ -375,7 +379,7 @@ body {
     			transform: translate(-50%, -50%);
     			left: 34%;
     			top: 51%;
-    			opacity: .24;
+    			opacity: .3;
 	    	}
     	}
     	.downArrow {
