@@ -4,7 +4,11 @@
 
 
             <button class="modalClose caps fw-400 size5">
-            	<i class="icon-cancel-1 size7"></i>
+            	
+                <!-- <i class="icon-cancel-1 size7"></i> -->
+                <div class="closeButton">
+                </div>
+
             </button>
 
 

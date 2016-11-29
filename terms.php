@@ -35,7 +35,7 @@ $seo_variable = "home";
 					<li class='guarantee-link active-term-link'><a>Guarantee</a></li>
 					<li class='shipping-link'><a>Shipping</a></li>
 					<li class='privacy-link'><a>Privacy</a></li>
-					<li class='legal-link'><a>Legal</a></li>
+					<li class='legal-link bottomLink'><a>Legal</a></li>
 				</ul>
 			</div>
 

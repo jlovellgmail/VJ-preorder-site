@@ -89,6 +89,18 @@ body {
   min-height: 500px;
   display: table;
 }
+.modalWindow .modalClose {
+  top: 0px;
+  right: 0px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.modalWindow .modalClose .closeButton {
+  content: url("/preorder/images/x.svg");
+  width: 15px;
+  height: 15px;
+  opacity: .5;
+}
 .modalWindow .contentContainer {
   display: table-cell;
   vertical-align: bottom;
@@ -902,6 +914,9 @@ body {
 .termsPage .contentContainer .navCol ul li.active-term-link {
   font-weight: bold;
   text-decoration: underline;
+}
+.termsPage .contentContainer .navCol ul li.bottomLink {
+  margin-bottom: 0;
 }
 .termsPage .contentContainer .navCol ul a {
   cursor: pointer;
