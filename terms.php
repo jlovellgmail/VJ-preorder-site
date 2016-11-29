@@ -21,9 +21,11 @@ $seo_variable = "home";
 		<div class="contentContainer">
 
 
+			<!--
 			<div class="headline">
 				Terms &amp; Conditions
 			</div>
+			-->
 				
 
 			<div class='navCol'>
@@ -43,7 +45,7 @@ $seo_variable = "home";
 			<div class='contentCol'>
 
 				<div class='terms-body-block terms-guarantee rel block marBottom30'>
-	                <h2 class='caps size6 fw-600 marBottom15 block'>Guarantee</h2>
+	                <h2 class='title'>Guarantee</h2>
 	                <p>If your purchase is in its <span style="text-decoration: underline;">original</span> condition, we will buy it back for the original purchase price - for any reason or at any time.</p>
 	                <p>If your purchase has been <span style="text-decoration: underline;">used</span> or <span style="text-decoration: underline;">damaged</span>, you may select one of the following options:</p>
 
@@ -66,13 +68,13 @@ $seo_variable = "home";
 	                </div>
 			 	</div>
 			 	<div class='terms-body-block terms-shipping rel block marBottom30 hide'>
-				 	<h2 class='caps size6 fw-600 marBottom15 block'>Shipping</h2>
+				 	<h2 class='title'>Shipping</h2>
 				 	<p>All purchases are shipped prepaid to your mailing address by expedited delivery (UPS or FedEx 2<sup>nd</sup> Day) in the United States, or by expedited international carriers (DHL, FEDEX, etc.) to the rest of the world.</p>
 	                <p>Return shipping labels are included in the event you want to immediately return your purchase.  Unless special arrangements are made, customers are responsible for all non-US customs and/or duty charges.</p>
 	                <p>Unless special arrangements are made, orders of more than one item are shipped together.</p>
 			 	</div>
 			 	<div class='terms-body-block terms-privacy rel block marBottom30 hide'>
-	                <h2 class='caps size6 fw-600 marBottom15 block'>We take your privacy seriously.</h2>
+	                <h2 class='title'>Privacy</h2>
 	                <p>We respect your privacy. All personal information collected on our website is used solely to manage your experience as a customer. We never share or sell personal information.</p>
 	                <p>Financial information is used only to process order transactions, and is not saved by Virgil James.</p>
 	                <p>If you register with Virgil James, it's easy to modify your saved information or remove it entirely by clicking on the Account icon at the top of any page.</p>
@@ -80,7 +82,7 @@ $seo_variable = "home";
 	                <p>If you have any questions regarding our Privacy Policy or practices, please send an email to: <a href="mailto:privacy@virgiljames.com">privacy@virgiljames.com.</a></p>
 			 	</div>
 			 	<div class='terms-body-block terms-legal rel block marBottom30 hide'>
-	                <h2 class='caps size6 fw-600 marBottom15 block'>Please Read Carefully</h2>
+	                <h2 class='title'>Legal</h2>
 				 	<p>This Terms of Use Agreement (this "Agreement") is a legal agreement between you and Virgil James Inc. ("Virgil James," "we," "us," or "our"), a California Corporation, providing, among other things, the terms and conditions for you to access and to use this Web site <a href='https://www.virgiljames.com'>https://www.virgiljames.com</a> (the "Site"). Please read the Agreement carefully and print a copy for your records.</p>
 	                <p>We may from time to time modify these terms of use and will post a copy of the amended Agreement at (https://www.virgiljames.com). If you do not agree to, or cannot comply with this Agreement as amended, you should not use this Site. You will be deemed to have accepted this Agreement as amended if you continue to use this Site after any amendments are posted on this Site.</p>
 	                <p class='caps'>THIS AGREEMENT CONTAINS WARRANTY AND LIABILITY DISCLAIMERS. BY USING THIS SITE, YOU ACCEPT AND AGREE TO THE TERMS AND CONDITIONS OF THIS AGREEMENT WITHOUT ANY RESERVAT1ONS, MODIFICATIONS, ADDITIONS, OR DELETIONS, AND WHETHER OR NOT YOU HAVE READ THEM. IF YOU DO NOT AGREE TO THE TERMS OF USE CONTAINED IN THIS AGREEMENT, YOU ARE NOT AUTHORJZED TO USE THIS SITE. YOU MAY BE DENIED ACCESS TO THE SITE WITH OR WITHOUT PRIOR NOTICE IF YOU FAIL TO COMPLY WITH ANY PROVISION OF THIS AGREEMENT.</p>
@@ -148,7 +150,7 @@ $seo_variable = "home";
 	$(window).load(function(){
 		
 		// $("#sticky-terms").sticky({ topSpacing: 48 });
-		$("#sticky-terms").sticky({ topSpacing: 148 });
+		$("#sticky-terms").sticky({ topSpacing: 141 });
 
 	});
 	$('.guarantee-link').on('click', function(){
