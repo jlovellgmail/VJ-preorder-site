@@ -163,6 +163,14 @@ body {
 @media all and (max-width: 768px){
 	.headerContainer {
 		.navWidthWrapper {
+			.logoWrapper {
+				.logoLink {
+					.navLogo {
+						padding-top: 22px;
+						width: 150px;
+					}
+				}
+			}
 			.rightItemsContainer {
 				.desktopLinksContainer {
 					display: none;
@@ -428,7 +436,10 @@ body {
 	    text-align: center;
     	height: 100vh;
     	.mainFrame {
-    		margin: 0 15px;
+    		
+    		//margin: 0 15px;
+    		margin: 0;
+
     		height: calc(~"100vh - 76px - 86px");
     		top: 76px;
     		position: relative;
@@ -492,6 +503,49 @@ body {
 			.landingFrame {
 				.mainFrame {
 					margin: 0 96px;
+				}
+			}
+		}
+	}
+}
+@media all and (max-width: 768px){
+	body {
+		.aboutPage {
+			&.bg1{
+				.landingFrame {
+					height: auto;
+					.mainFrame {
+						height: auto;
+						background-image: none;
+						.textBlockMain {
+							color: black;
+							top: initial;
+							transform: none;
+							margin: 0 30px;
+							max-width: initial;
+							margin-top: 5px;
+							margin-bottom: 30px;
+							.headline {
+								.vjSectionHeading;
+								font-size: 31px;
+								line-height: initial;
+								margin-bottom: 13px;
+							}
+							.copy {
+								color: black;
+								line-height: 28px;
+								font-weight: 300;
+								font-size: 16px;
+								max-width: initial;
+							}
+						}
+					}
+					.downArrow {
+						display: none;
+					}
+			    	.blackGlow {
+			    		display: none;
+			    	}
 				}
 			}
 		}

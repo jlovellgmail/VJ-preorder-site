@@ -151,6 +151,10 @@ body {
   }
 }
 @media all and (max-width: 768px) {
+  .headerContainer .navWidthWrapper .logoWrapper .logoLink .navLogo {
+    padding-top: 22px;
+    width: 150px;
+  }
   .headerContainer .navWidthWrapper .rightItemsContainer .desktopLinksContainer {
     display: none;
   }
@@ -386,7 +390,7 @@ body {
   height: 100vh;
 }
 .aboutPage .landingFrame .mainFrame {
-  margin: 0 15px;
+  margin: 0;
   height: calc(100vh - 76px - 86px);
   top: 76px;
   position: relative;
@@ -449,6 +453,48 @@ body {
 @media all and (min-width: 1200px) {
   body .aboutPage .landingFrame .mainFrame {
     margin: 0 96px;
+  }
+}
+@media all and (max-width: 768px) {
+  body .aboutPage.bg1 .landingFrame {
+    height: auto;
+  }
+  body .aboutPage.bg1 .landingFrame .mainFrame {
+    height: auto;
+    background-image: none;
+  }
+  body .aboutPage.bg1 .landingFrame .mainFrame .textBlockMain {
+    color: black;
+    top: initial;
+    transform: none;
+    margin: 0 30px;
+    max-width: initial;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  body .aboutPage.bg1 .landingFrame .mainFrame .textBlockMain .headline {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    font-size: 31px;
+    line-height: initial;
+    margin-bottom: 13px;
+  }
+  body .aboutPage.bg1 .landingFrame .mainFrame .textBlockMain .copy {
+    color: black;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 16px;
+    max-width: initial;
+  }
+  body .aboutPage.bg1 .landingFrame .downArrow {
+    display: none;
+  }
+  body .aboutPage.bg1 .landingFrame .blackGlow {
+    display: none;
   }
 }
 @media all and (max-width: 1000px) {
