@@ -1,14 +1,13 @@
+//-----------------------------------------------
+//-----------------------------------------------
+//-----------------------------------------------
+// global
+
+@iconWidth: 90px;
+@navHeight: 76px;
 body {
 	height: 100%;
 }
-//-----------------------------------------------
-//-----------------------------------------------
-//-----------------------------------------------
-@iconWidth: 90px;
-@navHeight: 76px;
-//-----------------------------------------------
-//-----------------------------------------------
-//-----------------------------------------------
 .noPadding {
 	padding: 0;
 }
@@ -22,9 +21,6 @@ body {
 	margin-right: auto;
 }
 .vjHeadline1 {
-	// used in:
-	// product name
-	// collection name
 	font-size: 36px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -41,8 +37,6 @@ body {
 	font-weight: 400;
 	line-height: 26px;
 	display: inline-block;
-
-
 }
 .vjSectionHeading {
 	text-transform: uppercase;
@@ -70,10 +64,11 @@ body {
 		width: 100%;
 	}
 }
+
 //-----------------------------------------------
 //-----------------------------------------------
 //-----------------------------------------------
-// modal
+// modals
 
 .modalOverlay {
 	background-color: rgba(255,255,255, .9);
@@ -134,7 +129,6 @@ body {
 			}
 		}
 	}
-	// contact modal
 	.modalWrapper-contact {
 		.title {
 			text-transform: uppercase;
@@ -251,7 +245,6 @@ body {
 	}
 }
 .aboutPage {
-
 	&.bg1 {
 		.landingFrame {
 			.mainFrame {
@@ -271,7 +264,6 @@ body {
 				}
 			}
 		}
-
 	}
 	&.bg3 {
 		.landingFrame {
@@ -281,7 +273,6 @@ body {
 		}
 	}
 	display: block;
-	// margin-top: 90px;
 	text-align: left;
 	.image {
 		background-color: rgba(0, 0, 0, 0.1);
@@ -303,10 +294,8 @@ body {
 			background-image: url("../images/label_with_edition_number_IMG_5437_RT.jpg");
 		}
 		&#qualityMaterials {
-			//background-image: url("../images/bonaudo.jpg");
 			background-image: url("../images/drawstring top edge_q7.jpg");
 			background-position-y: 25%;
-			// background-size: 104%;
 			background-position-x: 30%;
 		}
 		&#theTeam {
@@ -317,23 +306,6 @@ body {
 	.sectionHeading {
 		.vjSectionHeading;
 	}
-	/*
-	.textBlock {
-		width: 610px;
-		margin-top: 0;
-	    padding-top: 40px;
-	}
-	.textBlock {
-		color: black;
-	    width: 550px;
-	    position: relative;
-	    margin-top: 20px;
-        margin-bottom: 70px;
-	    &.right {
-	    	text-align: left;
-	    }
-	}
-	*/
     .headline {
     	text-transform: uppercase;
     	font-size: 80px;
@@ -350,10 +322,7 @@ body {
 	    text-align: center;
     	height: 100vh;
     	.mainFrame {
-    		
-    		//margin: 0 96px;
     		margin: 0 15px;
-
     		height: calc(~"100vh - 76px - 86px");
     		top: 76px;
     		position: relative;
@@ -366,12 +335,10 @@ body {
     		.textBlockMain {
     			color: white;
     			max-width: 680px;
-    			// width: 80%;
     		    display: inline-block;
     		    position: relative;
     		    top: 50%;
     		    transform: translateY(-50%);
-    		    // left: 18%;
     		    margin: auto 18%;
     		    .headline {
     		    	font-size: 49px;
@@ -411,11 +378,8 @@ body {
     .belowLandingFrame {
     	margin-top: 70px;
     	margin-bottom: 100px;
-    	// text-align: center;
-    	// display: inline-block;
     }
 }
-//@media all and (min-width: 768px){
 @media all and (min-width: 1200px){
 	body {
 		.aboutPage {
@@ -437,10 +401,7 @@ body {
 	body {
 		.preorderPage {
 			.landingFrame{
-				
-				//min-height: calc(~"100vh - 86px");
 				min-height: auto;
-
 				.mainFrame {
 					text-align: center;
 					padding: 60px;
@@ -585,113 +546,6 @@ body {
 //-----------------------------------------------
 //-----------------------------------------------
 //-----------------------------------------------
-// Collectons page (obsolete)
-
-.collectionsPage {
-	.breadcrumb {
-		display: none;
-	}
-	background-image: url("/preorder/images/bg_collections.jpg");
-    background-position-x: center;
-	background-position-y: 56px;
-	background-size: 1916px 1305px; // match laptop window width
-	&.bg2 {
-		background-image: url("/preorder/images/bg_collections2.jpg");
-	    background-position-x: center;
-	    background-position-y: calc(~"50% - -280px"); // offset from center
-		background-size: 1916px 1600px; // match laptop window width
-		.wrapper {
-			.content {
-				.title {
-					font-size: 46px;
-					border-bottom: none;
-					margin-bottom: 10px;
-					.part2 {
-					    margin-left: 8px;
-					}
-				}
-				.boxes {
-					.box {
-						border: 3px solid rgba(255,255,255, .9);
-					}
-				}
-			}
-		}
-	}
-    background-repeat: no-repeat;
-    height: 100%;
-    .wrapper {
-    	height: 100%;
-    	width: 100%;
-    	display: table;
-	    .content {
-		    display: table-cell;
-		    vertical-align: middle;
-		    padding-bottom: 8.75%;
-			.titleContainer {
-				width: 610px;
-				margin-left: auto;
-				margin-right: auto;
-				padding-top: 30px;
-		    	.title {
-		    		color: white;
-	    		    font-size: 30px;
-	    			letter-spacing: 1px;
-		    		text-transform: uppercase;
-		    		padding-bottom: 26px;
-		    		text-rendering: geometricPrecision;
-		    		.part1 {
-		    			font-weight: 600;
-		    			display: inline-block;
-		    		}
-		    		.part2 {
-		    			font-weight: 100;
-		    			display: inline-block;
-		    			margin-left: 8px;
-		    			letter-spacing: 2px;
-		    		}
-		    	}
-		    }
-	    	.boxes {
-	    		.box {
-	    			cursor: pointer;
-				    padding: 33px 0;
-				    width: 212px;
-				    font-size: 18px;
-				    text-transform: uppercase;
-    				letter-spacing: 1.4px;
-	    			color: white;
-	    			display: inline-block;
-	    			margin: 0 1px;
-				    margin-top: 3px;
-				    border: 2px solid white;
-				    transition: .3s;
-				    &:hover {
-			    	    background-color: rgba(255, 255, 255, 0.1);
-				    }
-	    		}
-	    	}
-	    }
-    }
-    @media all and (max-width : 1680px) {
-    	.wrapper {
-    		.content {
-    			.boxes {
-    				.box {
-    					padding-top: 40px;
-    					padding-bottom: 40px;
-    					width: 205px;
-    					font-size: 20px;
-    				}
-    			}
-    		}
-    	}
-	}
-}
-
-//-----------------------------------------------
-//-----------------------------------------------
-//-----------------------------------------------
 // Collection page
 
 .collectionPage {
@@ -804,7 +658,7 @@ body {
 //-----------------------------------------------
 //-----------------------------------------------
 //-----------------------------------------------
-// product page ?
+// product page
 
 .productPage {
 	.widthWrapper {
@@ -985,6 +839,7 @@ body {
 		}
 	}
 }
+
 //-----------------------------------------------
 //-----------------------------------------------
 //-----------------------------------------------
@@ -1047,6 +902,7 @@ body {
 		}
 	}
 }
+
 //-----------------------------------------------
 //-----------------------------------------------
 //-----------------------------------------------
