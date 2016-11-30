@@ -151,9 +151,14 @@ body {
   }
 }
 @media all and (max-width: 768px) {
+  .headerContainer {
+    height: 66px;
+  }
   .headerContainer .navWidthWrapper .logoWrapper .logoLink .navLogo {
-    padding-top: 22px;
     width: 150px;
+  }
+  .headerContainer .navWidthWrapper .rightItemsContainer {
+    top: 23px;
   }
   .headerContainer .navWidthWrapper .rightItemsContainer .desktopLinksContainer {
     display: none;
@@ -315,15 +320,6 @@ body {
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
   }
 }
-@media all and (min-width: 1360px) {
-  body .aboutPage .itemContainer .textBlock {
-    display: inline-block;
-    margin-left: 40px;
-    margin-bottom: 0;
-    width: 610px;
-    padding-top: 0;
-  }
-}
 .aboutPage {
   display: block;
   text-align: left;
@@ -372,6 +368,7 @@ body {
   line-height: initial;
   margin-bottom: 8px;
   margin-top: 20px;
+  margin-bottom: 18px;
 }
 .aboutPage .headline {
   text-transform: uppercase;
@@ -391,7 +388,7 @@ body {
 }
 .aboutPage .landingFrame .mainFrame {
   margin: 0;
-  height: calc(100vh - 76px - 86px);
+  height: calc(100vh - 76px);
   top: 76px;
   position: relative;
   background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
@@ -445,23 +442,44 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
   opacity: .8;
+  filter: invert(100%);
 }
 .aboutPage .belowLandingFrame {
   margin-top: 70px;
   margin-bottom: 100px;
 }
+@media all and (min-width: 1360px) {
+  body .aboutPage .itemContainer .textBlock {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 0;
+    width: 610px;
+    padding-top: 0;
+  }
+}
 @media all and (min-width: 1200px) {
   body .aboutPage .landingFrame .mainFrame {
     margin: 0 96px;
+    height: calc(100vh - 76px - 86px);
+  }
+  body .aboutPage .landingFrame .downArrow {
+    filter: none;
+  }
+}
+@media all and (max-width: 1200px) {
+  body .aboutPage .belowLandingFrame .sectionHeading {
+    margin-top: 40px;
   }
 }
 @media all and (max-width: 768px) {
   body .aboutPage.bg1 .landingFrame {
     height: auto;
+    margin-top: 66px;
   }
   body .aboutPage.bg1 .landingFrame .mainFrame {
     height: auto;
     background-image: none;
+    top: 0;
   }
   body .aboutPage.bg1 .landingFrame .mainFrame .textBlockMain {
     color: black;
@@ -495,6 +513,19 @@ body {
   }
   body .aboutPage.bg1 .landingFrame .blackGlow {
     display: none;
+  }
+  body .aboutPage .belowLandingFrame {
+    margin-top: 0;
+  }
+  body .aboutPage .belowLandingFrame .sectionHeading {
+    margin-top: 40px;
+    font-size: 31px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  body .aboutPage .belowLandingFrame .copy {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 @media all and (max-width: 1000px) {

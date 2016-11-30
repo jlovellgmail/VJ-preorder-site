@@ -4,7 +4,8 @@
 // global
 
 @iconWidth: 90px;
-@navHeight: 76px;
+@headerHeight: 76px;
+@headerHeightSmall: 66px;
 body {
 	height: 100%;
 }
@@ -46,7 +47,7 @@ body {
 .page {
     width: 100%;
 	font-family: proxima-nova, sans-serif;
-	margin-top: @navHeight;
+	margin-top: @headerHeight;
 }
 .widthWrapper {
 	max-width: 100%;
@@ -76,7 +77,7 @@ body {
 }
 .headerContainer {
 	background-color: white;
-	height: @navHeight;
+	height: @headerHeight;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -162,16 +163,17 @@ body {
 }
 @media all and (max-width: 768px){
 	.headerContainer {
+		height: @headerHeightSmall;
 		.navWidthWrapper {
 			.logoWrapper {
 				.logoLink {
 					.navLogo {
-						padding-top: 22px;
 						width: 150px;
 					}
 				}
 			}
 			.rightItemsContainer {
+			    top: 23px;
 				.desktopLinksContainer {
 					display: none;
 				}
@@ -343,21 +345,6 @@ body {
 //-----------------------------------------------
 // About page
 
-@media all and (min-width : 1360px) {
-	body {
-		.aboutPage {
-			.itemContainer {
-		    	.textBlock {
-		    		display: inline-block;
-			    	margin-left: 40px;
-			    	margin-bottom: 0;
-			    	width: 610px;
-			    	padding-top: 0;
-		    	}
-			}
-		}
-	}
-}
 .aboutPage {
 	&.bg1 {
 		.landingFrame {
@@ -419,6 +406,7 @@ body {
 	}
 	.sectionHeading {
 		.vjSectionHeading;
+		margin-bottom: 18px;
 	}
     .headline {
     	text-transform: uppercase;
@@ -436,11 +424,8 @@ body {
 	    text-align: center;
     	height: 100vh;
     	.mainFrame {
-    		
-    		//margin: 0 15px;
     		margin: 0;
-
-    		height: calc(~"100vh - 76px - 86px");
+    		height: calc(~"100vh - 76px");
     		top: 76px;
     		position: relative;
     		background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
@@ -490,6 +475,7 @@ body {
     		left: 50%;
     		transform: translate(-50%, 0);
     		opacity: .8;
+    		filter: invert(100%);
     	}
     }
     .belowLandingFrame {
@@ -497,26 +483,65 @@ body {
     	margin-bottom: 100px;
     }
 }
+@media all and (min-width : 1360px) {
+	body {
+		.aboutPage {
+			.itemContainer {
+		    	.textBlock {
+		    		display: inline-block;
+			    	margin-left: 40px;
+			    	margin-bottom: 0;
+			    	width: 610px;
+			    	padding-top: 0;
+		    	}
+			}
+		}
+	}
+}
+
+
 @media all and (min-width: 1200px){
 	body {
 		.aboutPage {
 			.landingFrame {
 				.mainFrame {
 					margin: 0 96px;
+		    		height: calc(~"100vh - 76px - 86px");
+				}
+				.downArrow {
+					filter: none;
 				}
 			}
 		}
 	}
 }
+// fix this replace the above
+@media all and (max-width: 1200px){
+	body {
+		.aboutPage {
+			.belowLandingFrame {
+				.sectionHeading {
+					margin-top: 40px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
 @media all and (max-width: 768px){
 	body {
 		.aboutPage {
 			&.bg1{
 				.landingFrame {
 					height: auto;
+					margin-top: @headerHeightSmall;
 					.mainFrame {
 						height: auto;
 						background-image: none;
+						top: 0;
 						.textBlockMain {
 							color: black;
 							top: initial;
@@ -546,6 +571,19 @@ body {
 			    	.blackGlow {
 			    		display: none;
 			    	}
+				}
+			}
+			.belowLandingFrame {
+				margin-top: 0;
+				.sectionHeading {
+					margin-top: 40px;
+					font-size: 31px;
+					margin-left: 15px;
+					margin-right: 15px;
+				}
+				.copy {
+					margin-left: 15px;
+					margin-right: 15px;
 				}
 			}
 		}
