@@ -5,54 +5,89 @@ $seo_variable = "home";
 ?>
 <html class="no-js" lang="en">
 <head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="../css/bootstrap-grid.css" />
+
     <?php include '/incs/head-links.php'; ?>
 	<link rel="stylesheet" href="/css/index.css" />
-	<link rel="stylesheet" href="../css/preorder.css" />
+	<link rel="stylesheet" href="../css/preorder_bootstrap.css" />
 </head>
 <body class="body">
 	<?php include 'nav.php'; ?>
+		<div class="aboutPage bg1">
 	
 
 
-	<div class="aboutPage bg1">
-		<div class="landingFrame">
-			<div class="mainFrame">
-				<div class="textBlockMain">
-					<div class="blackGlow">
-						<img src="/preorder/images/black_blur.png" />
-					</div>
-					<div class="headline">
-						Getting Started
-					</div>
-					<div class="copy">
-						Our original goal was to build exactly what we wanted to use and own, without compromise, with the belief that others would value this accomplishment and want the same. Sure, it took much longer than planned (OK, three years longer) and cost more (yes, a lot more!) but we now make the exceptional products we originally envisioned.
+	<div class="container-fluid">
+		<div class="row">
+
+
+
+			<div class="landingFrame">
+				<div class="mainFrame">
+					<div class="textBlockMain">
+						<div class="blackGlow">
+							<img src="/preorder/images/black_blur.png" />
+						</div>
+						<div class="headline">
+							Getting Started
+						</div>
+						<div class="copy">
+							Our original goal was to build exactly what we wanted to use and own, without compromise, with the belief that others would value this accomplishment and want the same. Sure, it took much longer than planned (OK, three years longer) and cost more (yes, a lot more!) but we now make the exceptional products we originally envisioned.
+						</div>
 					</div>
 				</div>
+				<img class="downArrow" src="../images/arrow_down.svg">
 			</div>
-			<img class="downArrow" src="../images/arrow_down.svg">
+
+
+
+
+
+
+
 		</div>
-		<div class=belowLandingFrame>
+	</div>
 
 
+	<div class=belowLandingFrame>
+
+
+
+
+		<div class="container">
 			<!-- --------------------------------------------------- -->
-			<div class="itemContainer">
-				<div class="image" id="designPrinciples">
+			<div class="row">
+				<div class="col-lg-6">
+						
+					<!-- <div class="itemContainer"> -->
+						<div class="image" id="designPrinciples">
+						</div>
+					<!-- </div> -->
+
 				</div>
-				<div class="textBlock right">
-					<div class="headline">
-						Design Principles
-					</div>
-					<div class="copy">
-						Like the creation of art, we're driven to design and build extraordinary bags and accessories that express what's important to us. Our design approach is called Engineered Luxury. It starts by blending a classically elegant, timeless look with real-life modern usability. It ends by using the best materials and craftsmen to create something that's authentic and unique.
-					</div>
+				<div class="col-lg-6">
+
+					<!-- <div class="textBlock right"> -->
+						<div class="sectionHeading">
+							Design Principles
+						</div>
+						<div class="copy">
+							Like the creation of art, we're driven to design and build extraordinary bags and accessories that express what's important to us. Our design approach is called Engineered Luxury. It starts by blending a classically elegant, timeless look with real-life modern usability. It ends by using the best materials and craftsmen to create something that's authentic and unique.
+						</div>
+					<!-- </div> -->
+
 				</div>
 			</div>
 			<!-- --------------------------------------------------- -->
-			<div class="itemContainer">
-				<div class="image" id="whatMakesUsUnique">
+			<div class="row vjRowTopMargin">
+				<div class="col-lg-6">
+					<div class="image" id="whatMakesUsUnique">
+					</div>
 				</div>
-				<div class="textBlock right">
-					<div class="headline">
+				<div class="col-lg-6">
+					<div class="sectionHeading">
 						What Makes us Unique
 					</div>
 					<div class="copy">
@@ -61,11 +96,13 @@ $seo_variable = "home";
 				</div>
 			</div>
 			<!-- --------------------------------------------------- -->
-			<div class="itemContainer">
-				<div class="image" id="productCollections">
+			<div class="row vjRowTopMargin">
+				<div class="col-lg-6">
+					<div class="image" id="productCollections">
+					</div>
 				</div>
-				<div class="textBlock right">
-					<div class="headline">
+				<div class="col-lg-6">
+					<div class="sectionHeading">
 						Product Collections
 					</div>
 					<div class="copy">
@@ -74,12 +111,13 @@ $seo_variable = "home";
 				</div>
 			</div>
 			<!-- --------------------------------------------------- -->
-			<div class="itemContainer">
-				<div class="image" id="makingTheBest">
-					<!-- <img src="../images/label_with_edition_number_IMG_5437_RT.jpg" /> -->
+			<div class="row vjRowTopMargin">
+				<div class="col-lg-6">
+					<div class="image" id="makingTheBest">
+					</div>
 				</div>
-				<div class="textBlock right">
-					<div class="headline">
+				<div class="col-lg-6">
+					<div class="sectionHeading">
 						Making the Best
 					</div>
 					<div class="copy">
@@ -88,11 +126,13 @@ $seo_variable = "home";
 				</div>
 			</div>
 			<!-- --------------------------------------------------- -->
-			<div class="itemContainer">
-				<div class="image" id="qualityMaterials">
+			<div class="row vjRowTopMargin">
+				<div class="col-lg-6">
+					<div class="image" id="qualityMaterials">
+					</div>
 				</div>
-				<div class="textBlock right">
-					<div class="headline">
+				<div class="col-lg-6">
+					<div class="sectionHeading">
 						Quality Materials
 					</div>
 					<div class="copy">
@@ -101,11 +141,13 @@ $seo_variable = "home";
 				</div>
 			</div>
 			<!-- --------------------------------------------------- -->
-			<div class="itemContainer">
-				<div class="image" id="theTeam">
+			<div class="row vjRowTopMargin">
+				<div class="col-lg-6">
+					<div class="image" id="theTeam">
+					</div>
 				</div>
-				<div class="textBlock right">
-					<div class="headline">
+				<div class="col-lg-6">
+					<div class="sectionHeading">
 						The Team
 					</div>
 					<div class="copy">
@@ -114,11 +156,13 @@ $seo_variable = "home";
 				</div>
 			</div>
 			<!-- --------------------------------------------------- -->
-			<div class="itemContainer">
-				<div class="image" id="buyingFromVirgilJames">
+			<div class="row vjRowTopMargin">
+				<div class="col-lg-6">
+					<div class="image" id="buyingFromVirgilJames">
+					</div>
 				</div>
-				<div class="textBlock right">
-					<div class="headline">
+				<div class="col-lg-6">
+					<div class="sectionHeading">
 						Buying From Virgil James
 					</div>
 					<div class="copy">
@@ -128,12 +172,21 @@ $seo_variable = "home";
 			</div>
 			<!-- --------------------------------------------------- -->
 		</div>
+
+
+
+
 	</div>
 
 
 
-	<?php include "/incs/footer.php"; ?>
 
+
+
+
+
+	</div>
+	<?php include "/incs/footer.php"; ?>
 </body>
 </html>
 
