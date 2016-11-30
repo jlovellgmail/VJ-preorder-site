@@ -14,7 +14,7 @@ $seo_variable = "home";
 	<link rel="stylesheet" href="../css/preorder_bootstrap.css" />
 </head>
 <body class="body">
-	<?php include 'nav.php'; ?>
+	<?php include 'nav_bootstrap.php'; ?>
 		<div class="aboutPage bg1">
 	
 
