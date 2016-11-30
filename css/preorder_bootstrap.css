@@ -1,6 +1,9 @@
 body {
   height: 100%;
 }
+.noPadding {
+  padding: 0;
+}
 .navBgWrapper {
   background-color: white;
   height: 76px;
@@ -299,7 +302,7 @@ body {
   height: 100vh;
 }
 .aboutPage .landingFrame .mainFrame {
-  margin: 0 96px;
+  margin: 0 15px;
   height: calc(100vh - 76px - 86px);
   top: 76px;
   position: relative;
@@ -313,17 +316,16 @@ body {
 .aboutPage .landingFrame .mainFrame .textBlockMain {
   color: white;
   max-width: 680px;
-  width: 80%;
   display: inline-block;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  left: 18%;
+  margin: auto 18%;
 }
 .aboutPage .landingFrame .mainFrame .textBlockMain .headline {
   font-size: 49px;
-  line-height: 69px;
-  margin-bottom: 10px;
+  line-height: 49px;
+  margin-bottom: 21px;
   position: relative;
 }
 .aboutPage .landingFrame .mainFrame .textBlockMain .copy {
@@ -359,6 +361,11 @@ body {
 .aboutPage .belowLandingFrame {
   margin-top: 70px;
   margin-bottom: 100px;
+}
+@media all and (min-width: 1200px) {
+  body .aboutPage .landingFrame .mainFrame {
+    margin: 0 96px;
+  }
 }
 @media all and (max-width: 1000px) {
   body .preorderPage .landingFrame {

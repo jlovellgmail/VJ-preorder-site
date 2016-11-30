@@ -9,6 +9,9 @@ body {
 //-----------------------------------------------
 //-----------------------------------------------
 //-----------------------------------------------
+.noPadding {
+	padding: 0;
+}
 .navBgWrapper {
 	background-color: white;
 	height: @navHeight;
@@ -347,7 +350,10 @@ body {
 	    text-align: center;
     	height: 100vh;
     	.mainFrame {
-    		margin: 0 96px;
+    		
+    		//margin: 0 96px;
+    		margin: 0 15px;
+
     		height: calc(~"100vh - 76px - 86px");
     		top: 76px;
     		position: relative;
@@ -360,16 +366,17 @@ body {
     		.textBlockMain {
     			color: white;
     			max-width: 680px;
-    			width: 80%;
+    			// width: 80%;
     		    display: inline-block;
     		    position: relative;
     		    top: 50%;
     		    transform: translateY(-50%);
-    		    left: 18%;
+    		    // left: 18%;
+    		    margin: auto 18%;
     		    .headline {
     		    	font-size: 49px;
-		    	    line-height: 69px;
-	    	        margin-bottom: 10px;
+    		    	line-height: 49px;
+    		    	margin-bottom: 21px;
 	    	        position: relative;
     		    }
     		    .copy {
@@ -408,6 +415,19 @@ body {
     	// display: inline-block;
     }
 }
+//@media all and (min-width: 768px){
+@media all and (min-width: 1200px){
+	body {
+		.aboutPage {
+			.landingFrame {
+				.mainFrame {
+					margin: 0 96px;
+				}
+			}
+		}
+	}
+}
+
 //-----------------------------------------------
 //-----------------------------------------------
 //-----------------------------------------------
