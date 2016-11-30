@@ -53,6 +53,14 @@ body {
     width: 100%;
   }
 }
+.headerText {
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .5px;
+  text-rendering: geometricPrecision;
+  font-weight: 600;
+}
 .headerContainer {
   background-color: white;
   height: 76px;
@@ -98,6 +106,7 @@ body {
   margin-right: 15px;
 }
 .headerContainer .navWidthWrapper .rightItemsContainer .desktopLinksContainer {
+  color: rgba(0, 0, 0, 0.4);
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: .5px;
@@ -148,6 +157,67 @@ body {
   .headerContainer .navWidthWrapper .rightItemsContainer .burgerContainer {
     display: initial;
   }
+}
+.footerText {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .5px;
+  text-rendering: geometricPrecision;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+.footerContainer {
+  background-color: white;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 86px;
+  padding-top: 24px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .5px;
+  text-rendering: geometricPrecision;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+.footerContainer a {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .5px;
+  text-rendering: geometricPrecision;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+.footerContainer button {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .5px;
+  text-rendering: geometricPrecision;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+.footerContainer .leftFooterColumn {
+  width: auto;
+  position: absolute;
+  left: 95px;
+}
+.footerContainer .leftFooterColumn .socialIcons img {
+  bottom: 1px;
+  position: relative;
+}
+.footerContainer .rightFooterColumn {
+  width: auto;
+  position: absolute;
+  right: 95px;
+}
+.footerContainer .footerLink:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+.footerContainer .socialIcons {
+  color: red;
+}
+.footerContainer .socialIcons:hover {
+  color: rgba(0, 0, 0, 0.7);
 }
 .modalOverlay {
   background-color: rgba(255, 255, 255, 0.9);
@@ -240,67 +310,6 @@ body {
   .modalWindow {
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
   }
-}
-.headerText {
-  color: rgba(0, 0, 0, 0.4);
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: .5px;
-  text-rendering: geometricPrecision;
-  font-weight: 600;
-}
-.footerContainer {
-  background-color: white;
-  bottom: 0;
-  width: 100%;
-  left: 0;
-  height: 86px;
-  padding-top: 24px;
-  color: rgba(0, 0, 0, 0.4);
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: .5px;
-  text-rendering: geometricPrecision;
-  font-weight: 600;
-}
-.footerContainer a {
-  color: rgba(0, 0, 0, 0.4);
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: .5px;
-  text-rendering: geometricPrecision;
-  font-weight: 600;
-}
-.footerContainer button {
-  color: rgba(0, 0, 0, 0.4);
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: .5px;
-  text-rendering: geometricPrecision;
-  font-weight: 600;
-}
-.footerContainer .leftFooterColumn {
-  width: auto;
-  position: absolute;
-  left: 95px;
-}
-.footerContainer .leftFooterColumn .socialIcons img {
-  bottom: 1px;
-  position: relative;
-}
-.footerContainer .rightFooterColumn {
-  width: auto;
-  position: absolute;
-  right: 95px;
-}
-.footerContainer .footerLink:hover {
-  color: rgba(0, 0, 0, 0.7);
-}
-.footerContainer .socialIcons {
-  color: red;
-}
-.footerContainer .socialIcons:hover {
-  color: rgba(0, 0, 0, 0.7);
 }
 @media all and (min-width: 1360px) {
   body .aboutPage .itemContainer .textBlock {

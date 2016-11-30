@@ -66,6 +66,14 @@ body {
 //-----------------------------------------------
 // header / nav
 
+.headerText {
+	color: rgba(0,0,0, .4);
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: .5px;
+	text-rendering: geometricPrecision;
+	font-weight: 600;
+}
 .headerContainer {
 	background-color: white;
 	height: @navHeight;
@@ -108,11 +116,7 @@ body {
 			top: 29px;
 			margin-right: 15px;
 			.desktopLinksContainer {
-				text-transform: uppercase;
-				font-size: 14px;
-				letter-spacing: .5px;
-				text-rendering: geometricPrecision;
-				font-weight: 600;
+				.headerText;
 				.textLinksContainer {
 				    display: inline-block;
 					margin-right: 4px;
@@ -171,6 +175,58 @@ body {
 	}
 }
 
+//-----------------------------------------------
+//-----------------------------------------------
+//-----------------------------------------------
+// footer
+
+@footerHeight: 86px;
+.footerText {
+	.headerText;
+	color: rgba(0,0,0, .4);
+}
+.footerContainer {
+	background-color: white;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	height: @footerHeight;
+    padding-top: 24px;
+	.footerText;
+    a {
+    	.footerText;
+    }
+    button {
+    	.footerText;
+    }
+	.leftFooterColumn {
+		width: auto;
+		position: absolute;
+	    left: 95px;
+	    .socialIcons {
+			img {
+				bottom: 1px;
+				position: relative;
+	    	}
+	    }
+	}
+	.rightFooterColumn {
+		width: auto;
+		position: absolute;
+		right: 95px;
+	}
+	.footerLink {
+		&:hover {
+			color: rgba(0,0,0, .7);
+		}
+	}
+	.socialIcons {
+		color: red;
+		&:hover {
+			color: rgba(0,0,0, .7);
+		}
+	}
+}
 
 //-----------------------------------------------
 //-----------------------------------------------
@@ -271,63 +327,6 @@ body {
 @media (min-width: 741px) {
 	.modalWindow {
 		box-shadow: 0 0 5px 2px rgba(0,0,0, .15);
-	}
-}
-
-//-----------------------------------------------
-//-----------------------------------------------
-//-----------------------------------------------
-// header / footer
-
-.headerText {
-	color: rgba(0,0,0, .4);
-	text-transform: uppercase;
-	font-size: 14px;
-	letter-spacing: .5px;
-	text-rendering: geometricPrecision;
-	font-weight: 600;
-}
-@footerHeight: 86px;
-.footerContainer {
-	background-color: white;
-	bottom: 0;
-	width: 100%;
-	left: 0;
-	height: @footerHeight;
-    padding-top: 24px;
-	.headerText;
-    a {
-    	.headerText;
-    }
-    button {
-    	.headerText;
-    }
-	.leftFooterColumn {
-		width: auto;
-		position: absolute;
-	    left: 95px;
-	    .socialIcons {
-			img {
-				bottom: 1px;
-				position: relative;
-	    	}
-	    }
-	}
-	.rightFooterColumn {
-		width: auto;
-		position: absolute;
-		right: 95px;
-	}
-	.footerLink {
-		&:hover {
-			color: rgba(0,0,0, .7);
-		}
-	}
-	.socialIcons {
-		color: red;
-		&:hover {
-			color: rgba(0,0,0, .7);
-		}
 	}
 }
 
