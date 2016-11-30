@@ -11,10 +11,6 @@ body {
 .noPadding {
 	padding: 0;
 }
-.navBgWrapper {
-	background-color: white;
-	height: @navHeight;
-}
 .vjWidth {
 	width: calc(~"100% - 95px - 95px");
 	margin-left: auto;
@@ -64,6 +60,117 @@ body {
 		width: 100%;
 	}
 }
+
+//-----------------------------------------------
+//-----------------------------------------------
+//-----------------------------------------------
+// header / nav
+
+.headerContainer {
+	background-color: white;
+	height: @navHeight;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	z-index: 18;
+	.navWidthWrapper {
+		position: relative;
+		display: block;
+		width: calc(~"100% - 15px - 15px");
+		padding-top: 9px;
+		height: 100%;
+		margin: 0 auto;
+		text-align: left;
+		.logoWrapper {
+			margin-left: auto;
+			margin-right: auto;
+			position: relative;
+			display: inline-block;
+			margin-left: 15px;
+			.logoLink {
+				position: relative;
+				display: block;
+				text-align: left;
+				height: 100%;
+				.navLogo {
+					position: relative;
+					padding-top: 16px;
+					width: 209px;
+				}
+			}
+		}
+		.rightItemsContainer {
+			position: absolute;
+		    right: 0;
+			top: 29px;
+			margin-right: 15px;
+			.desktopLinksContainer {
+				text-transform: uppercase;
+				font-size: 14px;
+				letter-spacing: .5px;
+				text-rendering: geometricPrecision;
+				font-weight: 600;
+				.textLinksContainer {
+				    display: inline-block;
+					margin-right: 4px;
+					a {
+						margin-right: 16px;
+					}
+				}
+				.iconWrapper {
+					position: relative;
+					display: inline-block;
+					text-align: center;
+					height: 100%;
+					margin-left: 5px;
+				}
+			}
+			.burgerContainer {
+				right: 0;
+				display: none;
+			}
+		}
+		.bottomBorder {
+			height: 1px;
+			border-bottom: 1px solid rgba(0,0,0, .17);
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+	}
+}
+@media all and (min-width: 1200px) {
+	.headerContainer {
+		.navWidthWrapper {
+			width: calc(~"100% - 95px - 95px");
+			.logoWrapper {
+				margin-left: auto;
+			}
+			.rightItemsContainer {
+				margin-right: auto;
+			}
+		}
+	}
+}
+@media all and (max-width: 768px){
+	.headerContainer {
+		.navWidthWrapper {
+			.rightItemsContainer {
+				.desktopLinksContainer {
+					display: none;
+				}
+				.burgerContainer {
+					display: initial;
+				}
+			}
+		}
+	}
+}
+
 
 //-----------------------------------------------
 //-----------------------------------------------
