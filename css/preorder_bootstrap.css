@@ -131,6 +131,37 @@ body {
   right: 0;
   display: none;
 }
+.headerContainer .navWidthWrapper .dropdown {
+  display: none;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 66px;
+  background-color: #fafafa;
+}
+.headerContainer .navWidthWrapper .dropdown.visible {
+  display: inline-block;
+}
+.headerContainer .navWidthWrapper .dropdown .dropdownLinksContainer {
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .5px;
+  text-rendering: geometricPrecision;
+  font-weight: 600;
+  padding: 30px;
+  text-align: right;
+}
+.headerContainer .navWidthWrapper .dropdown .dropdownLinksContainer .textLinksContainer {
+  display: block;
+}
+.headerContainer .navWidthWrapper .dropdown .dropdownLinksContainer .textLinksContainer a {
+  display: block;
+  padding-bottom: 6px;
+}
+.headerContainer .navWidthWrapper .dropdown .dropdownLinksContainer .iconWrapper {
+  display: block;
+}
 .headerContainer .navWidthWrapper .bottomBorder {
   height: 1px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.17);

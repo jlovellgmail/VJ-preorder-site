@@ -138,6 +138,38 @@ body {
 				display: none;
 			}
 		}
+
+
+		.dropdown {
+			display: none;
+			position: fixed;
+			//height: 200px;
+			width: 100%;
+			left: 0;
+			top: 66px;
+			background-color: rgba(250,250,250, 1);
+			&.visible {
+				display: inline-block;
+			}
+			.dropdownLinksContainer {
+				.headerText;
+				padding: 30px;
+				text-align: right;
+				.textLinksContainer {
+					display: block;
+					a {
+						display: block;
+						padding-bottom: 6px;
+					}
+				}
+				.iconWrapper {
+					display: block;
+				}
+			}
+		}
+
+
+
 		.bottomBorder {
 			height: 1px;
 			border-bottom: 1px solid rgba(0,0,0, .17);

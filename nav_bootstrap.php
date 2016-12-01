@@ -34,6 +34,44 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
             <div class='burgerContainer'>
                 <i class='icon-menu-1'></i>
             </div>
+
+
+            
+            <div class="dropdown">
+                <div class="dropdownLinksContainer">
+                    <div class="textLinksContainer">
+                        <a href="preorder/index.php">Shop</a>
+                        <a href="preorder/about.php">About</a>
+
+                        <a href="javascript:goToCheckout();">Basket</a>
+                        <a href="preorder/login.php">Account</a>
+
+                    </div>
+
+
+                    <!--
+                    <a class="iconWrapper" href="javascript:goToCheckout();">
+                        <i class="icon-basket"></i>
+                    </a>           
+                    <a class="iconWrapper" href="preorder/login.php">
+                        <i class="icon-torso"></i>
+                    </a>
+                    -->
+
+
+                </div>
+            </div>
+            <script>
+                jQuery(function($){
+                    $( '.icon-menu-1' ).click(function(){
+                        $('.dropdown').toggleClass('visible')
+                    });
+                });
+            </script>
+
+
+
+
         </div>
         <div class="bottomBorder">
         </div>
