@@ -43,22 +43,20 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
                         <a href="preorder/index.php">Shop</a>
                         <a href="preorder/about.php">About</a>
 
-                        <a href="javascript:goToCheckout();">Basket</a>
+                        
+                        <!--
+                        <a href="javascript:goToCheckout();">Cart</a>
                         <a href="preorder/login.php">Account</a>
+                        -->
+                        <a class="iconWrapper" href="javascript:goToCheckout();">
+                            <i class="icon-basket"></i>
+                        </a>           
+                        <a class="iconWrapper" href="preorder/login.php">
+                            <i class="icon-torso"></i>
+                        </a>
+
 
                     </div>
-
-
-                    <!--
-                    <a class="iconWrapper" href="javascript:goToCheckout();">
-                        <i class="icon-basket"></i>
-                    </a>           
-                    <a class="iconWrapper" href="preorder/login.php">
-                        <i class="icon-torso"></i>
-                    </a>
-                    -->
-
-
                 </div>
             </div>
             <script>
