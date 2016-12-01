@@ -39,7 +39,7 @@ body {
 .page {
   width: 100%;
   font-family: proxima-nova, sans-serif;
-  margin-top: 76px;
+  margin-top: 66px;
 }
 .widthWrapper {
   max-width: 100%;
@@ -63,7 +63,6 @@ body {
 }
 .headerContainer {
   background-color: white;
-  height: 76px;
   position: fixed;
   top: 0;
   left: 0;
@@ -76,36 +75,39 @@ body {
   position: relative;
   display: block;
   width: calc(100% - 15px - 15px);
-  padding-top: 9px;
   height: 100%;
   margin: 0 auto;
   text-align: left;
 }
-.headerContainer .navWidthWrapper .logoWrapper {
+.headerContainer .navWidthWrapper .headerHeightWrapper {
+  height: 66px;
+  padding-top: 9px;
+}
+.headerContainer .navWidthWrapper .headerHeightWrapper .logoWrapper {
   margin-left: auto;
   margin-right: auto;
   position: relative;
   display: inline-block;
   margin-left: 15px;
 }
-.headerContainer .navWidthWrapper .logoWrapper .logoLink {
+.headerContainer .navWidthWrapper .headerHeightWrapper .logoWrapper .logoLink {
   position: relative;
   display: block;
   text-align: left;
   height: 100%;
 }
-.headerContainer .navWidthWrapper .logoWrapper .logoLink .navLogo {
+.headerContainer .navWidthWrapper .headerHeightWrapper .logoWrapper .logoLink .navLogo {
   position: relative;
   padding-top: 16px;
   width: 209px;
 }
-.headerContainer .navWidthWrapper .rightItemsContainer {
+.headerContainer .navWidthWrapper .headerHeightWrapper .rightItemsContainer {
   position: absolute;
   right: 0;
   top: 29px;
   margin-right: 15px;
 }
-.headerContainer .navWidthWrapper .rightItemsContainer .desktopLinksContainer {
+.headerContainer .navWidthWrapper .headerHeightWrapper .rightItemsContainer .desktopLinksContainer {
   color: rgba(0, 0, 0, 0.4);
   text-transform: uppercase;
   font-size: 14px;
@@ -113,34 +115,36 @@ body {
   text-rendering: geometricPrecision;
   font-weight: 600;
 }
-.headerContainer .navWidthWrapper .rightItemsContainer .desktopLinksContainer .textLinksContainer {
+.headerContainer .navWidthWrapper .headerHeightWrapper .rightItemsContainer .desktopLinksContainer .textLinksContainer {
   display: inline-block;
   margin-right: 4px;
 }
-.headerContainer .navWidthWrapper .rightItemsContainer .desktopLinksContainer .textLinksContainer a {
+.headerContainer .navWidthWrapper .headerHeightWrapper .rightItemsContainer .desktopLinksContainer .textLinksContainer a {
   margin-right: 16px;
 }
-.headerContainer .navWidthWrapper .rightItemsContainer .desktopLinksContainer .iconWrapper {
+.headerContainer .navWidthWrapper .headerHeightWrapper .rightItemsContainer .desktopLinksContainer .iconWrapper {
   position: relative;
   display: inline-block;
   text-align: center;
   height: 100%;
   margin-left: 5px;
 }
-.headerContainer .navWidthWrapper .rightItemsContainer .burgerContainer {
+.headerContainer .navWidthWrapper .headerHeightWrapper .rightItemsContainer .burgerContainer {
   right: 0;
   display: none;
 }
 .headerContainer .navWidthWrapper .dropdown {
-  display: none;
-  position: fixed;
+  display: block;
+  position: relative;
+  max-height: 0;
+  transition: max-height 0.5s;
+  overflow: hidden;
   width: 100%;
   left: 0;
-  top: 66px;
-  background-color: #fafafa;
+  background-color: white;
 }
 .headerContainer .navWidthWrapper .dropdown.visible {
-  display: inline-block;
+  max-height: 300px;
 }
 .headerContainer .navWidthWrapper .dropdown .dropdownLinksContainer {
   color: rgba(0, 0, 0, 0.4);
@@ -149,7 +153,10 @@ body {
   letter-spacing: .5px;
   text-rendering: geometricPrecision;
   font-weight: 600;
-  padding: 30px;
+  font-size: 17px;
+  padding: 15px;
+  padding-top: 0;
+  padding-bottom: 10px;
   text-align: right;
 }
 .headerContainer .navWidthWrapper .dropdown .dropdownLinksContainer .textLinksContainer {
@@ -157,7 +164,7 @@ body {
 }
 .headerContainer .navWidthWrapper .dropdown .dropdownLinksContainer .textLinksContainer a {
   display: block;
-  padding-bottom: 6px;
+  padding-bottom: 20px;
 }
 .headerContainer .navWidthWrapper .dropdown .dropdownLinksContainer .iconWrapper {
   display: block;
@@ -165,7 +172,7 @@ body {
 .headerContainer .navWidthWrapper .bottomBorder {
   height: 1px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.17);
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -185,16 +192,16 @@ body {
   .headerContainer {
     height: 66px;
   }
-  .headerContainer .navWidthWrapper .logoWrapper .logoLink .navLogo {
+  .headerContainer .navWidthWrapper .headerHeightWrapper .logoWrapper .logoLink .navLogo {
     width: 150px;
   }
-  .headerContainer .navWidthWrapper .rightItemsContainer {
+  .headerContainer .navWidthWrapper .headerHeightWrapper .rightItemsContainer {
     top: 23px;
   }
-  .headerContainer .navWidthWrapper .rightItemsContainer .desktopLinksContainer {
+  .headerContainer .navWidthWrapper .headerHeightWrapper .rightItemsContainer .desktopLinksContainer {
     display: none;
   }
-  .headerContainer .navWidthWrapper .rightItemsContainer .burgerContainer {
+  .headerContainer .navWidthWrapper .headerHeightWrapper .rightItemsContainer .burgerContainer {
     display: initial;
   }
 }

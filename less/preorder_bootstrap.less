@@ -4,7 +4,10 @@
 // global
 
 @iconWidth: 90px;
-@headerHeight: 76px;
+
+//@headerHeight: 76px;
+@headerHeight: 66px;
+
 @headerHeightSmall: 66px;
 body {
 	height: 100%;
@@ -77,7 +80,9 @@ body {
 }
 .headerContainer {
 	background-color: white;
-	height: @headerHeight;
+	
+	//height: @headerHeight;
+	
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -89,76 +94,101 @@ body {
 		position: relative;
 		display: block;
 		width: calc(~"100% - 15px - 15px");
-		padding-top: 9px;
+		
+		//padding-top: 9px;
+		
 		height: 100%;
 		margin: 0 auto;
 		text-align: left;
-		.logoWrapper {
-			margin-left: auto;
-			margin-right: auto;
-			position: relative;
-			display: inline-block;
-			margin-left: 15px;
-			.logoLink {
+		.headerHeightWrapper {
+			height: @headerHeight;
+			padding-top: 9px;
+			.logoWrapper {
+				margin-left: auto;
+				margin-right: auto;
 				position: relative;
-				display: block;
-				text-align: left;
-				height: 100%;
-				.navLogo {
+				display: inline-block;
+				margin-left: 15px;
+				.logoLink {
 					position: relative;
-					padding-top: 16px;
-					width: 209px;
-				}
-			}
-		}
-		.rightItemsContainer {
-			position: absolute;
-		    right: 0;
-			top: 29px;
-			margin-right: 15px;
-			.desktopLinksContainer {
-				.headerText;
-				.textLinksContainer {
-				    display: inline-block;
-					margin-right: 4px;
-					a {
-						margin-right: 16px;
+					display: block;
+					text-align: left;
+					height: 100%;
+					.navLogo {
+						position: relative;
+						padding-top: 16px;
+						width: 209px;
 					}
 				}
-				.iconWrapper {
-					position: relative;
-					display: inline-block;
-					text-align: center;
-					height: 100%;
-					margin-left: 5px;
+			}
+			.rightItemsContainer {
+				position: absolute;
+			    right: 0;
+				top: 29px;
+				margin-right: 15px;
+				.desktopLinksContainer {
+					.headerText;
+					.textLinksContainer {
+					    display: inline-block;
+						margin-right: 4px;
+						a {
+							margin-right: 16px;
+						}
+					}
+					.iconWrapper {
+						position: relative;
+						display: inline-block;
+						text-align: center;
+						height: 100%;
+						margin-left: 5px;
+					}
+				}
+				.burgerContainer {
+					right: 0;
+					display: none;
 				}
 			}
-			.burgerContainer {
-				right: 0;
-				display: none;
-			}
 		}
+
 
 
 		.dropdown {
-			display: none;
-			position: fixed;
+
+			//display: none;
+			//position: fixed;
+			display: block;
+			position: relative;
+			max-height: 0;
+			transition: max-height 0.5s;
+			overflow: hidden;
+
 			width: 100%;
 			left: 0;
-			top: 66px;
-			background-color: rgba(250,250,250, 1);
+			
+			//top: 66px;
+			//background-color: rgba(250,250,250, 1);
+			background-color: white;
+
 			&.visible {
-				display: inline-block;
+				
+				//display: inline-block;
+				max-height: 300px;
+
 			}
 			.dropdownLinksContainer {
 				.headerText;
-				padding: 30px;
+				
+				font-size: 17px;
+				padding: 15px;
+				padding-top: 0;
+				padding-bottom: 10px;
+
 				text-align: right;
 				.textLinksContainer {
 					display: block;
 					a {
 						display: block;
-						padding-bottom: 6px;
+						padding-bottom: 20px;
 					}
 				}
 				.iconWrapper {
@@ -172,7 +202,10 @@ body {
 		.bottomBorder {
 			height: 1px;
 			border-bottom: 1px solid rgba(0,0,0, .17);
-			position: absolute;
+			
+			//position: absolute;
+			position: relative;
+
 			bottom: 0;
 			left: 0;
 			right: 0;
@@ -196,20 +229,22 @@ body {
 	.headerContainer {
 		height: @headerHeightSmall;
 		.navWidthWrapper {
-			.logoWrapper {
-				.logoLink {
-					.navLogo {
-						width: 150px;
+			.headerHeightWrapper {
+				.logoWrapper {
+					.logoLink {
+						.navLogo {
+							width: 150px;
+						}
 					}
 				}
-			}
-			.rightItemsContainer {
-			    top: 23px;
-				.desktopLinksContainer {
-					display: none;
-				}
-				.burgerContainer {
-					display: initial;
+				.rightItemsContainer {
+				    top: 23px;
+					.desktopLinksContainer {
+						display: none;
+					}
+					.burgerContainer {
+						display: initial;
+					}
 				}
 			}
 		}
