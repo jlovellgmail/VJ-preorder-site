@@ -4,10 +4,7 @@
 // global
 
 @iconWidth: 90px;
-
-//@headerHeight: 76px;
-@headerHeight: 66px;
-
+@headerHeight: 76px;
 @headerHeightSmall: 66px;
 body {
 	height: 100%;
@@ -110,7 +107,7 @@ body {
 					height: 100%;
 					.navLogo {
 						position: relative;
-						padding-top: 16px;
+						padding-top: 17px;
 						width: 209px;
 					}
 				}
@@ -140,6 +137,11 @@ body {
 				.burgerContainer {
 					right: 0;
 					display: none;
+					.icon-menu-1 {
+						font-size: 24px;
+					    position: relative;
+					    top: -1px;
+					}
 				}
 			}
 		}
@@ -202,10 +204,17 @@ body {
 		height: @headerHeightSmall;
 		.navWidthWrapper {
 			.headerHeightWrapper {
+
+				//height: @headerHeightSmall;
+				height: @headerHeight;
+
 				.logoWrapper {
 					.logoLink {
 						.navLogo {
-							width: 150px;
+							
+							width: 195px;
+							padding-top: 19px;
+
 						}
 					}
 				}
