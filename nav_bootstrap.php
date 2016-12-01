@@ -13,8 +13,6 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
 
 <div class="headerContainer">
     <div class="navWidthWrapper">
-
-
         <div class="headerHeightWrapper">
             <div class="logoWrapper">
                 <a class="logoLink" href="preorder/index.php">
@@ -38,14 +36,7 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
                     <i class='icon-menu-1'></i>
                 </div>
             </div>
-
         </div>
-
-
-
-
-
-        
         <div class="dropdown">
             <div class="dropdownLinksContainer">
                 <div class="textLinksContainer">
@@ -75,12 +66,6 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
                 });
             });
         </script>
-
-
-
-
-
-
         <div class="bottomBorder">
         </div>
     </div>
