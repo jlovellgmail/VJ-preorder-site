@@ -479,17 +479,8 @@ body {
 	    text-align: center;
     	height: 100vh;
     	.mainFrame {
-
-
-    		// move these to responsive max-width 1200
-    		/*
-    		margin: 0;
-    		height: calc(~"100vh - 76px");
-    		*/
 			margin: 0 96px;
     		height: calc(~"100vh - 76px - 86px");
-
-
     		top: 76px;
     		position: relative;
     		background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
@@ -539,13 +530,7 @@ body {
     		left: 50%;
     		transform: translate(-50%, 0);
     		opacity: .8;
-
-    		// move to responsive
-    		/*
-    		filter: invert(100%);
-    		*/
     		filter: none;
-
     	}
     }
     .belowLandingFrame {
@@ -553,35 +538,6 @@ body {
     	margin-bottom: 100px;
     }
 }
-
-@media all and (min-width: 1200px){
-	body {
-		.aboutPage {
-			.landingFrame {
-				.mainFrame {
-
-					
-					// move to base
-					/*
-					margin: 0 96px;
-		    		height: calc(~"100vh - 76px - 86px");
-		    		*/
-
-
-				}
-				.downArrow {
-
-					// move to base
-					/*
-					filter: none;
-					*/
-
-				}
-			}
-		}
-	}
-}
-// fix this either have them all min-width or max-width
 @media all and (max-width: 1200px){
 	body {
 		.aboutPage {
@@ -602,10 +558,6 @@ body {
 		}
 	}
 }
-
-
-
-
 @media all and (max-width: 768px){
 	body {
 		.aboutPage {

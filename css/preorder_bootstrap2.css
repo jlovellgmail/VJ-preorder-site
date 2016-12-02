@@ -441,10 +441,6 @@ body {
   height: 100vh;
 }
 .aboutPage .landingFrame .mainFrame {
-  /*
-    		margin: 0;
-    		height: calc(~"100vh - 76px");
-    		*/
   margin: 0 96px;
   height: calc(100vh - 76px - 86px);
   top: 76px;
@@ -500,27 +496,11 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
   opacity: .8;
-  /*
-    		filter: invert(100%);
-    		*/
   filter: none;
 }
 .aboutPage .belowLandingFrame {
   margin-top: 70px;
   margin-bottom: 100px;
-}
-@media all and (min-width: 1200px) {
-  body .aboutPage .landingFrame .mainFrame {
-    /*
-					margin: 0 96px;
-		    		height: calc(~"100vh - 76px - 86px");
-		    		*/
-  }
-  body .aboutPage .landingFrame .downArrow {
-    /*
-					filter: none;
-					*/
-  }
 }
 @media all and (max-width: 1200px) {
   body .aboutPage .landingFrame .mainFrame {
