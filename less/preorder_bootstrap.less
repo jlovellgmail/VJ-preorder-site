@@ -5,7 +5,7 @@
 
 @iconWidth: 90px;
 @headerHeight: 76px;
-@headerHeightSmall: 66px;
+@headerHeightSmall: 76px;
 body {
 	height: 100%;
 }
@@ -84,6 +84,10 @@ body {
 	margin: 0;
 	padding: 0;
 	z-index: 18;
+	transition: top 0.17s ease-in-out;
+	&.headerUp {
+		top: calc( -1 * (@headerHeight + 2) );
+	}
 	.navWidthWrapper {
 		position: relative;
 		display: block;
@@ -201,13 +205,12 @@ body {
 }
 @media all and (max-width: 768px){
 	.headerContainer {
-		height: @headerHeightSmall;
+		
+		//height: @headerHeightSmall;
+
 		.navWidthWrapper {
 			.headerHeightWrapper {
-
-				//height: @headerHeightSmall;
-				height: @headerHeight;
-
+				height: @headerHeightSmall;
 				.logoWrapper {
 					.logoLink {
 						.navLogo {

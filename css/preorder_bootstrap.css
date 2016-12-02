@@ -70,6 +70,10 @@ body {
   margin: 0;
   padding: 0;
   z-index: 18;
+  transition: top 0.17s ease-in-out;
+}
+.headerContainer.headerUp {
+  top: calc(-78px);
 }
 .headerContainer .navWidthWrapper {
   position: relative;
@@ -194,9 +198,6 @@ body {
   }
 }
 @media all and (max-width: 768px) {
-  .headerContainer {
-    height: 66px;
-  }
   .headerContainer .navWidthWrapper .headerHeightWrapper {
     height: 76px;
   }
@@ -521,7 +522,7 @@ body {
 @media all and (max-width: 768px) {
   body .aboutPage.bg1 .landingFrame {
     height: auto;
-    margin-top: 66px;
+    margin-top: 76px;
   }
   body .aboutPage.bg1 .landingFrame .mainFrame {
     height: auto;
