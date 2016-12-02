@@ -90,7 +90,10 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
                 // If current position > last position AND scrolled past navbar...
                 if (st > lastScrollTop && st > headerHeight){
                     // Scroll Down
-                    $(".headerContainer").addClass("headerUp");
+                    $(".headerContainer .dropdown").removeClass("visible");
+                    setTimeout(function() {
+                        $(".headerContainer").addClass("headerUp");
+                    }, 200);
 
                 } else {
                     // Scroll Up
