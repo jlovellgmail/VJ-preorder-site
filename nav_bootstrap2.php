@@ -67,10 +67,8 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
                 $(".burgerContainer").click(function(){
 
                     $('.dropdown').toggleClass('visible');
-                    setTimeout(function() {
-                        $('.burgerContainer .icon-menu').toggleClass("visible");
-                        $(".burgerContainer .icon-cancel").toggleClass("visible");
-                    }, 200);
+                    $('.burgerContainer .icon-menu').toggleClass("visible");
+                    $(".burgerContainer .icon-cancel").toggleClass("visible");
 
                 });
             });
