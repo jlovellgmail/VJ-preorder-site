@@ -66,18 +66,10 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
                 });
             });
         </script>
-
-
         <script type="text/javascript">
-
-            //$("body").text("begihnnning");
-            //document.body.innerHTML = document.body.innerHTML + 'Extra stuff';
-
-            
             var lastScrollTop = 0;
             var delta = 5;
             var headerHeight = $(".headerContainer").outerHeight();
-
             var didScroll;
             // on scroll, let the interval function know the user has scrolled
             $(window).scroll(function(event){
@@ -90,59 +82,26 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
                     didScroll = false;
                 }
             }, 250);
-
-
-            /*
-            $('body').bind('touchmove', function(e) { 
-                //console.log($(this).scrollTop()); // Replace this with your code.
-                didScroll = true;
-                $("body").text("touchmove");
-
-            });
-            document.addEventListener("scroll", scroll, false);
-            function scroll(){
-                console.log("got this");
-                $("body").text("got this");
-            }
-            */
-
-
-
             function hasScrolled() {
-                // do stuff here...
-
-                //console.log("hasScrolled()");
                 var st = $(this).scrollTop();
-                // console.log("st: " + st);
                 if(Math.abs(lastScrollTop - st) <= delta){
                     return;
                 }
-
                 // If current position > last position AND scrolled past navbar...
                 if (st > lastScrollTop && st > headerHeight){
                     // Scroll Down
-                    
-                    //console.log("adding headerUp.......");
-                    //$(‘headerContainer’).removeClass(‘nav-down’).addClass(‘nav-up’);
                     $(".headerContainer").addClass("headerUp");
 
                 } else {
                     // Scroll Up
                     // If did not scroll past the document (possible on mac)...
                     if(st + $(window).height() < $(document).height()) { 
-                        
-                        //$(‘header’).removeClass(‘nav-up’).addClass(‘nav-down’);
                         $(".headerContainer").removeClass("headerUp");
-
-                        //$("body").text("up");
-
                     }
                 }
                 lastScrollTop = st;
             }
         </script>
-
-
         <div class="bottomBorder">
         </div>
     </div>
