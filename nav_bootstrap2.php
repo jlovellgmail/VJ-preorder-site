@@ -33,7 +33,8 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
                     </a>
                 </div>
                 <div class='burgerContainer'>
-                    <i class='icon-menu-1'></i>
+                    <i class="icon-menu visible"></i>
+                    <i class="icon-cancel"></i>
                 </div>
             </div>
         </div>
@@ -61,8 +62,16 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
         </div>
         <script>
             jQuery(function($){
-                $( '.icon-menu-1' ).click(function(){
-                    $('.dropdown').toggleClass('visible')
+
+                //$( '.icon-menu' ).click(function(){
+                $(".burgerContainer").click(function(){
+
+                    $('.dropdown').toggleClass('visible');
+                    setTimeout(function() {
+                        $('.burgerContainer .icon-menu').toggleClass("visible");
+                        $(".burgerContainer .icon-cancel").toggleClass("visible");
+                    }, 200);
+
                 });
             });
         </script>
@@ -89,17 +98,27 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
                 }
                 // If current position > last position AND scrolled past navbar...
                 if (st > lastScrollTop && st > headerHeight){
-                    // Scroll Down
+                    // hide header
                     $(".headerContainer .dropdown").removeClass("visible");
                     setTimeout(function() {
                         $(".headerContainer").addClass("headerUp");
                     }, 200);
-
-                } else {
-                    // Scroll Up
-                    // If did not scroll past the document (possible on mac)...
+                    setTimeout(function() {
+                        $('.burgerContainer .icon-menu').addClass("visible");
+                        $(".burgerContainer .icon-cancel").removeClass("visible");
+                    }, 400);
+                } 
+                else {
+                    // show header
                     if(st + $(window).height() < $(document).height()) { 
                         $(".headerContainer").removeClass("headerUp");
+
+                        // these shouldn't be necessary
+                        /*
+                        $('.burgerContainer .icon-menu').addClass("visible");
+                        $(".burgerContainer .icon-cancel").removeClass("visible");
+                        */
+
                     }
                 }
                 lastScrollTop = st;
