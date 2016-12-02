@@ -734,8 +734,47 @@ body {
 }
 */
 @media all and (max-width: 1000px) {
+  .preorderPage .landingFrame .mainFrame {
+    margin: 0;
+    min-height: calc(100vh - 76px);
+    background-size: 170%;
+    background-position-x: 53%;
+    background-position-y: 100%;
+  }
   .preorderPage .landingFrame .mainFrame .preorderText {
+    width: 100%;
+    top: initial;
+    right: initial;
+    transform: initial;
+    margin-top: 37px;
+  }
+  .preorderPage .landingFrame .mainFrame .preorderText .headline {
+    font-size: 20px;
+  }
+  .preorderPage .landingFrame .mainFrame .preorderText .titleContainer {
+    margin: 0;
+  }
+  .preorderPage .landingFrame .mainFrame .preorderText .titleContainer .title {
+    font-size: 24px;
+  }
+  .preorderPage .landingFrame .mainFrame .preorderText .copy {
     display: none;
+  }
+  .preorderPage .landingFrame .mainFrame .preorderText .boxes {
+    margin-top: 7px;
+  }
+  .preorderPage .landingFrame .mainFrame .preorderText .boxes .box {
+    width: initial;
+    font-size: 19px;
+    padding: 20px 23px;
+  }
+  .preorderPage .landingFrame .mainFrame .preorderText .boxes .box .subtitle {
+    margin-top: 0;
+    position: relative;
+    top: -3px;
+  }
+  .preorderPage .landingFrame .mainFrame .preorderText .boxes .vline {
+    height: 60px;
   }
   .preorderPage .footerContainer {
     display: none;

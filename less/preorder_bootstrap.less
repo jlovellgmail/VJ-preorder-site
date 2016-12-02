@@ -790,8 +790,45 @@ body {
 	.preorderPage {
 		.landingFrame {
 			.mainFrame {
+				margin: 0;
+				min-height: calc(~"100vh - 76px");
+				background-size: 170%;
+				background-position-x: 53%;
+				background-position-y: 100%;
 				.preorderText {
-					display: none;
+					width: 100%;
+					top: initial;
+					right: initial;
+					transform: initial;
+					margin-top: 37px;
+					.headline {
+						font-size: 20px;
+					}
+					.titleContainer {
+						margin: 0;
+						.title {
+							font-size: 24px;
+						}
+					}
+					.copy {
+						display: none;
+					}
+					.boxes {
+						margin-top: 7px;
+						.box {
+							width: initial;
+							font-size: 19px;
+							padding: 20px 23px;
+							.subtitle {
+								margin-top: 0;
+								position: relative;
+								top: -3px;
+							}
+						}
+						.vline {
+							height: 60px;
+						}
+					}
 				}
 			}
 		}
