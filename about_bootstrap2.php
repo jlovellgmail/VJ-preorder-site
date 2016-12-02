@@ -9,7 +9,7 @@ $seo_variable = "home";
 	<link rel="stylesheet" href="../css/bootstrap-grid.css" />
     <?php include '/incs/head-links_bootstrap.php'; ?>
 	<link rel="stylesheet" href="/css/index.css" />
-	<link rel="stylesheet" href="../css/preorder_bootstrap.css" />
+	<link rel="stylesheet" href="../css/preorder_bootstrap2.css" />
 </head>
 <body class="body">
 	<?php include 'nav_bootstrap.php'; ?>
