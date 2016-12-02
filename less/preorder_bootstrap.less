@@ -141,10 +141,27 @@ body {
 				.burgerContainer {
 					right: 0;
 					display: none;
-					.icon-menu-1 {
+					.icon-menu {
+						opacity: 0;
+						transition: opacity .25s ease-in-out;
+						&.visible {
+							opacity: 1;
+						}
 						font-size: 24px;
-					    position: relative;
+					    position: absolute;
+					    right: 0;
 					    top: -1px;
+					}
+					.icon-cancel {
+						opacity: 0;
+						transition: opacity .25s ease-in-out;
+						&.visible {
+							opacity: 1;
+						}
+						font-size: 30px;
+					    top: -4px;
+					    position: absolute;
+					    right: -4.5px;
 					}
 				}
 			}
@@ -479,8 +496,8 @@ body {
 	    text-align: center;
     	height: 100vh;
     	.mainFrame {
-    		margin: 0;
-    		height: calc(~"100vh - 76px");
+			margin: 0 96px;
+    		height: calc(~"100vh - 76px - 86px");
     		top: 76px;
     		position: relative;
     		background-image: url("/preorder/images/about_hero3_IMG_8871.jpg");
@@ -530,7 +547,7 @@ body {
     		left: 50%;
     		transform: translate(-50%, 0);
     		opacity: .8;
-    		filter: invert(100%);
+    		filter: none;
     	}
     }
     .belowLandingFrame {
@@ -538,42 +555,18 @@ body {
     	margin-bottom: 100px;
     }
 }
-@media all and (min-width : 1360px) {
-	body {
-		.aboutPage {
-			.itemContainer {
-		    	.textBlock {
-		    		display: inline-block;
-			    	margin-left: 40px;
-			    	margin-bottom: 0;
-			    	width: 610px;
-			    	padding-top: 0;
-		    	}
-			}
-		}
-	}
-}
-
-
-@media all and (min-width: 1200px){
+@media all and (max-width: 1200px){
 	body {
 		.aboutPage {
 			.landingFrame {
 				.mainFrame {
-					margin: 0 96px;
-		    		height: calc(~"100vh - 76px - 86px");
+					margin: 0;
+					height: calc(~"100vh - 76px");
 				}
 				.downArrow {
-					filter: none;
+					filter: invert(100%);
 				}
 			}
-		}
-	}
-}
-// fix this either have them all min-width or max-width
-@media all and (max-width: 1200px){
-	body {
-		.aboutPage {
 			.belowLandingFrame {
 				.sectionHeading {
 					margin-top: 40px;
@@ -582,10 +575,6 @@ body {
 		}
 	}
 }
-
-
-
-
 @media all and (max-width: 768px){
 	body {
 		.aboutPage {
