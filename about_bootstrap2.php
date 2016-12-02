@@ -12,7 +12,7 @@ $seo_variable = "home";
 	<link rel="stylesheet" href="../css/preorder_bootstrap2.css" />
 </head>
 <body class="body">
-	<?php include 'nav_bootstrap.php'; ?>
+	<?php include 'nav_bootstrap2.php'; ?>
 		<div class="aboutPage bg1">
 			<div class="container-fluid">
 				<div class="row">
