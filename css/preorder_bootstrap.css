@@ -588,34 +588,6 @@ body {
     margin-right: 15px;
   }
 }
-@media all and (max-width: 1000px) {
-  body .preorderPage .landingFrame {
-    min-height: auto;
-  }
-  body .preorderPage .landingFrame .mainFrame {
-    text-align: center;
-    padding: 60px;
-    margin-bottom: 86px;
-    background-image: none;
-  }
-  body .preorderPage .landingFrame .mainFrame .preorderText {
-    display: inline-block;
-    width: auto;
-    position: relative;
-    top: 0;
-    text-align: left;
-    right: auto;
-  }
-  body .preorderPage .landingFrame .mainFrame .preorderText .boxes .box {
-    width: auto;
-    display: block;
-    margin-bottom: 11px;
-    font-size: 26px;
-  }
-  body .preorderPage .landingFrame .mainFrame .preorderText .titleContainer .title {
-    font-size: 40px;
-  }
-}
 .preorderPage .landingFrame {
   text-align: center;
   min-height: calc(100vh - 86px);
@@ -722,6 +694,34 @@ body {
 }
 .preorderPage .landingFrame .mainFrame .preorderText .boxes .box:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+@media all and (max-width: 1000px) {
+  body .preorderPage .landingFrame {
+    min-height: auto;
+  }
+  body .preorderPage .landingFrame .mainFrame {
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 86px;
+    background-image: none;
+  }
+  body .preorderPage .landingFrame .mainFrame .preorderText {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    top: 0;
+    text-align: left;
+    right: auto;
+  }
+  body .preorderPage .landingFrame .mainFrame .preorderText .boxes .box {
+    width: auto;
+    display: block;
+    margin-bottom: 11px;
+    font-size: 26px;
+  }
+  body .preorderPage .landingFrame .mainFrame .preorderText .titleContainer .title {
+    font-size: 40px;
+  }
 }
 .collectionPage {
   min-height: 100%;
