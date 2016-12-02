@@ -13,15 +13,12 @@ $seo_variable = "home";
 </head>
 <body class="body">
 	<?php include 'nav_bootstrap.php'; ?>
-
-
-
 	<div class="preorderPage">
 		<div class="landingFrame">
 			<div class="mainFrame">
 
 
-
+			
 				<div class="preorderText">
 					<div class="headline">
 						Exclusive Preview
@@ -61,12 +58,7 @@ $seo_variable = "home";
 
 			</div>
 		</div>
+		<?php include "/incs/footer.php"; ?>
 	</div>
-
-
-
-
-
-	<?php include "/incs/footer.php"; ?>
 </body>
 </html>

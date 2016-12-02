@@ -695,32 +695,50 @@ body {
 .preorderPage .landingFrame .mainFrame .preorderText .boxes .box:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+/*
 @media all and (max-width: 1000px) {
-  body .preorderPage .landingFrame {
-    min-height: auto;
+	body {
+		.preorderPage {
+			.landingFrame{
+				min-height: auto;
+				.mainFrame {
+					text-align: center;
+					padding: 60px;
+					margin-bottom: 86px;
+					background-image: none;
+					.preorderText {
+						display: inline-block;
+						width: auto;
+						position: relative;
+						top: 0;
+						text-align: left;
+						right: auto;
+						.boxes {
+							.box {
+								width: auto;
+								display: block;
+							    margin-bottom: 11px;
+							    font-size: 26px;
+							}
+						}
+						.titleContainer {
+							.title {
+								font-size: 40px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+*/
+@media all and (max-width: 1000px) {
+  .preorderPage .landingFrame .mainFrame .preorderText {
+    display: none;
   }
-  body .preorderPage .landingFrame .mainFrame {
-    text-align: center;
-    padding: 60px;
-    margin-bottom: 86px;
-    background-image: none;
-  }
-  body .preorderPage .landingFrame .mainFrame .preorderText {
-    display: inline-block;
-    width: auto;
-    position: relative;
-    top: 0;
-    text-align: left;
-    right: auto;
-  }
-  body .preorderPage .landingFrame .mainFrame .preorderText .boxes .box {
-    width: auto;
-    display: block;
-    margin-bottom: 11px;
-    font-size: 26px;
-  }
-  body .preorderPage .landingFrame .mainFrame .preorderText .titleContainer .title {
-    font-size: 40px;
+  .preorderPage .footerContainer {
+    display: none;
   }
 }
 .collectionPage {
