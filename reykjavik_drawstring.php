@@ -15,9 +15,7 @@ $seo_variable = "home";
 
 	<?php include 'nav.php'; ?>
 	
-	<!-- <div class="page"> -->
-	<div class="page productPage">
-
+	<div class="productPage">
 		<div class="widthWrapper">
 
 			
