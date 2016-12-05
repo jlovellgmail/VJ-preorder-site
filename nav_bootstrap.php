@@ -126,4 +126,4 @@ $rootpath = $_SERVER['DOCUMENT_ROOT'];
         </div>
     </div>
 </div>
-<div class="scrollWaypoint"></div>
+<!-- <div class="scrollWaypoint"></div> -->
