@@ -6,9 +6,10 @@ $seo_variable = "home";
 <html class="no-js" lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <?php include '/incs/head-links.php'; ?>
+	<link rel="stylesheet" href="../css/bootstrap-grid.css" />
+    <?php include '/incs/head-links_bootstrap.php'; ?>
 	<link rel="stylesheet" href="/css/index.css" />
-	<link rel="stylesheet" href="../css/preorder_bootstrap_generic.css" />
+	<link rel="stylesheet" href="../css/preorder_bootstrap.css" />
 </head>
 <body class="body">
 	<?php include 'nav_bootstrap.php'; ?>
