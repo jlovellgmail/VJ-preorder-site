@@ -1136,20 +1136,39 @@ body {
 		.widthWrapper {
 			padding-left: 30px;
 			padding-right: 30px;
+			.rowTop {
+				padding-top: 50px;
+			}
 			.rowSlides {
 
 				// temp for responsive
 				display: none;
 
 			}
+			.rowDetails {
+				max-width: 410px;
+				margin-left: auto;
+				margin-right: auto;
+				.blurb {
+					max-width: 100%;
+				}
+				.specs {
+					max-width: 100%;
+					margin-left: initial;
+				}
+			}
 			.featuresSection {
 				.featuresContainer {
 					max-width: 100%;
 					.feature {
+						margin: 30px;
+						padding: initial;
+						max-width: 410px;
 						.bodyCopy {
 							margin-left: initial;
 						    margin-right: initial;
 						    width: initial;
+						    display: block;
 						}
 					}
 				}

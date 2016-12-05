@@ -1076,16 +1076,37 @@ body {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .productPage .widthWrapper .rowTop {
+    padding-top: 50px;
+  }
   .productPage .widthWrapper .rowSlides {
     display: none;
   }
+  .productPage .widthWrapper .rowDetails {
+    max-width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .productPage .widthWrapper .rowDetails .blurb {
+    max-width: 100%;
+  }
+  .productPage .widthWrapper .rowDetails .specs {
+    max-width: 100%;
+    margin-left: initial;
+  }
   .productPage .widthWrapper .featuresSection .featuresContainer {
     max-width: 100%;
+  }
+  .productPage .widthWrapper .featuresSection .featuresContainer .feature {
+    margin: 30px;
+    padding: initial;
+    max-width: 410px;
   }
   .productPage .widthWrapper .featuresSection .featuresContainer .feature .bodyCopy {
     margin-left: initial;
     margin-right: initial;
     width: initial;
+    display: block;
   }
   .productPage .productImageContainer img {
     width: 100%;
