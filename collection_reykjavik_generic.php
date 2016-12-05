@@ -13,6 +13,7 @@ $seo_variable = "home";
 	<?php include 'nav_bootstrap.php'; ?>
 	
 
+
 	<div class="collectionPage">
 		<div class="widthWrapper">
 
@@ -35,76 +36,76 @@ $seo_variable = "home";
 
 
 
-			<!-- <div class="row first"> -->
-				<a class="item" href="preorder/reykjavik_drawstring.php">
-					<img src="../images/drawstring_161127.jpg" />
-					<div class="caption">
-						<div class="title">Drawstring</div>
-						<div class="price">$1,695</div>
-					</div>
-				</a>
-				<a class="item" href="preorder/reykjavik_drawstring.php">
-					<img src="../images/clutch_161127.jpg" />
-					<div class="caption">
-						<div class="title">Clutch</div>
-						<div class="price">$995</div>
-					</div>
-				</a>
-				<a class="item" href="preorder/reykjavik_drawstring.php">
-					<img src="../images/overnight_161127.jpg" />
-					<div class="caption">
-						<div class="title">Overnight</div>
-						<div class="price">$2,295</div>
-					</div>
-				</a>
-			<!-- </div> -->
-
-
-
-			<!-- <div class="row"> -->
-				<a class="item" href="preorder/reykjavik_drawstring.php">
-					<img src="../images/satchel_161127.jpg" />
-					<div class="caption">
-						<div class="title">Satchel</div>
-						<div class="price">$2,295</div>
-					</div>
-				</a>
-				<a class="item" href="preorder/reykjavik_drawstring.php">
-					<img src="../images/weekender_161127.jpg" />
-					<div class="caption">
-						<div class="title">Weekender</div>
-						<div class="price">$3,095</div>
-					</div>
-				</a>
-				<a class="item" href="preorder/reykjavik_drawstring.php">
-					<img src="../images/backpack_161127.jpg" />
-					<div class="caption">
-						<div class="title">Backpack</div>
-						<div class="price">$2,395</div>
-					</div>
-				</a>
-			<!-- </div> -->
-
-
-
-			<!-- <div class="row row3"> -->
-				<a class="item" href="preorder/reykjavik_drawstring.php">
-					<img src="../images/tote_161127.jpg" />
-					<div class="caption">
-						<div class="title">Tote</div>
-						<div class="price">$3,095</div>
-					</div>
-				</a>
-				<a class="item" href="preorder/reykjavik_drawstring.php">
-					<img src="../images/crossbody_161127.jpg" />
-					<div class="caption">
-						<div class="title">Crossbody</div>
-						<div class="price">$2,395</div>
-					</div>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/drawstring_161127.jpg" />
+				<div class="caption">
+					<div class="title">Drawstring</div>
+					<div class="price">$1,695</div>
 				</div>
-				<a class="item" href="preorder/reykjavik_drawstring.php">
-				</a>
-			<!-- </div> -->
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/clutch_161127.jpg" />
+				<div class="caption">
+					<div class="title">Clutch</div>
+					<div class="price">$995</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/overnight_161127.jpg" />
+				<div class="caption">
+					<div class="title">Overnight</div>
+					<div class="price">$2,295</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/satchel_161127.jpg" />
+				<div class="caption">
+					<div class="title">Satchel</div>
+					<div class="price">$2,295</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/weekender_161127.jpg" />
+				<div class="caption">
+					<div class="title">Weekender</div>
+					<div class="price">$3,095</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/backpack_161127.jpg" />
+				<div class="caption">
+					<div class="title">Backpack</div>
+					<div class="price">$2,395</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/tote_161127.jpg" />
+				<div class="caption">
+					<div class="title">Tote</div>
+					<div class="price">$3,095</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/crossbody_161127.jpg" />
+				<div class="caption">
+					<div class="title">Crossbody</div>
+					<div class="price">$2,395</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/satchel_161127.jpg" />
+				<div class="caption">
+					<div class="title">Satchel</div>
+					<div class="price">$2,295</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/weekender_161127.jpg" />
+				<div class="caption">
+					<div class="title">Weekender</div>
+					<div class="price">$3,095</div>
+				</div>
+			</a>
 
 
 
@@ -116,6 +117,9 @@ $seo_variable = "home";
 
 		</div>
 	</div>
+
+
+
 
 
     <?php include '/incs/footer.php'; ?>
