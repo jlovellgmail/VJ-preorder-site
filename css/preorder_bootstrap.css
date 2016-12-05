@@ -775,9 +775,9 @@ body {
   min-height: 40px;
   text-align: left;
   padding-left: 92px;
+  padding-top: 60px;
 }
 .collectionPage .topRow .headline {
-  margin-top: 60px;
   color: black;
   font-size: 36px;
   letter-spacing: 1px;
@@ -853,6 +853,22 @@ body {
   .collectionPage .topRow {
     padding-left: 34px;
     padding-right: 34px;
+    padding-top: 34px;
+  }
+  .collectionPage .topRow .headline {
+    margin-top: 0;
+    line-height: 28px;
+  }
+  .collectionPage .topRow .headline .part1 {
+    font-size: 38px;
+  }
+  .collectionPage .topRow .headline .part2 {
+    margin-left: 0;
+    font-size: 24px;
+  }
+  .collectionPage .topRow .text {
+    line-height: 25px;
+    font-size: 16px;
   }
   .collectionPage .item {
     width: 100%;
