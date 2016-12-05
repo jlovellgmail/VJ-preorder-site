@@ -5,13 +5,16 @@ $seo_variable = "home";
 ?>
 <html class="no-js" lang="en">
 <head>
-    <?php include '/incs/head-links.php'; ?>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="../css/bootstrap-grid.css" />
+    <?php include '/incs/head-links_bootstrap.php'; ?>
 	<link rel="stylesheet" href="/css/index.css" />
-	<link rel="stylesheet" href="../css/preorder.css" />
+	<link rel="stylesheet" href="../css/preorder_bootstrap.css" />
 </head>
 <body class="body">
-	<?php include 'nav.php'; ?>
+	<?php include 'nav_bootstrap.php'; ?>
 	
+
 
 	<div class="collectionPage">
 		<div class="widthWrapper">
@@ -28,77 +31,97 @@ $seo_variable = "home";
 			</div>
 
 
-			<div class="productsGrid">
-				<div class="row first">
-					<a class="item" href="preorder/reykjavik_drawstring.php">
-						<img src="../images/SantaFe_Drawstring_thumbnail.jpg" />
-						<div class="caption">
-							<div class="title">Drawstring</div>
-							<div class="price">$1,695</div>
-						</div>
-					</a>
-					<div class="item">
-						<img src="../images/SantaFe_Clutch_thumbnail.jpg" />
-						<div class="caption">
-							<div class="title">Clutch</div>
-							<div class="price">$995</div>
-						</div>
-					</div>
-					<div class="item">
-						<img src="../images/SantaFe_Overnight_thumbnail.jpg" />
-						<div class="caption">
-							<div class="title">Overnight</div>
-							<div class="price">$2,295</div>
-						</div>
-					</div>
+
+
+
+
+
+
+
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/SantaFe_Drawstring_thumbnail.jpg" />
+				<div class="caption">
+					<div class="title">Drawstring</div>
+					<div class="price">$1,695</div>
 				</div>
-				<div class="row">
-					<div class="item">
-						<img src="../images/SantaFe_Satchel_thumbnail.jpg" />
-						<div class="caption">
-							<div class="title">Satchel</div>
-							<div class="price">$2,295</div>
-						</div>
-					</div>
-					<div class="item">
-						<img src="../images/SantaFe_Weekender_thumbnail.jpg" />
-						<div class="caption">
-							<div class="title">Weekender</div>
-							<div class="price">$3,095</div>
-						</div>
-					</div>
-					<div class="item">
-						<img src="../images/SantaFe_Backpack_thumbnail.jpg" />
-						<div class="caption">
-							<div class="title">Backpack</div>
-							<div class="price">$2,395</div>
-						</div>
-					</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/SantaFe_Clutch_thumbnail.jpg" />
+				<div class="caption">
+					<div class="title">Clutch</div>
+					<div class="price">$995</div>
 				</div>
-				<div class="row row3">
-					<div class="item">
-						<img src="../images/SantaFe_Tote_thumbnail.jpg" />
-						<div class="caption">
-							<div class="title">Tote</div>
-							<div class="price">$3,095</div>
-						</div>
-					</div>
-					<div class="item">
-						<img src="../images/SantaFe_Crossbody_thumbnail.jpg" />
-						<div class="caption">
-							<div class="title">Crossbody</div>
-							<div class="price">$2,395</div>
-						</div>
-					</div>
-					<div class="item">
-					</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/SantaFe_Overnight_thumbnail.jpg" />
+				<div class="caption">
+					<div class="title">Overnight</div>
+					<div class="price">$2,295</div>
 				</div>
-			</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/SantaFe_Satchel_thumbnail.jpg" />
+				<div class="caption">
+					<div class="title">Satchel</div>
+					<div class="price">$2,295</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/SantaFe_Weekender_thumbnail.jpg" />
+				<div class="caption">
+					<div class="title">Weekender</div>
+					<div class="price">$3,095</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/SantaFe_Backpack_thumbnail.jpg" />
+				<div class="caption">
+					<div class="title">Backpack</div>
+					<div class="price">$2,395</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/SantaFe_Tote_thumbnail.jpg" />
+				<div class="caption">
+					<div class="title">Tote</div>
+					<div class="price">$3,095</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/SantaFe_Crossbody_thumbnail.jpg" />
+				<div class="caption">
+					<div class="title">Crossbody</div>
+					<div class="price">$2,395</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/SantaFe_Satchel_thumbnail.jpg" />
+				<div class="caption">
+					<div class="title">Satchel</div>
+					<div class="price">$2,295</div>
+				</div>
+			</a>
+			<a class="item" href="preorder/reykjavik_drawstring.php">
+				<img src="../images/SantaFe_Weekender_thumbnail.jpg" />
+				<div class="caption">
+					<div class="title">Weekender</div>
+					<div class="price">$3,095</div>
+				</div>
+			</a>
+
+
+
+
+
+
 
 
 
 		</div>
 	</div>
+
+
+
 
 
     <?php include '/incs/footer.php'; ?>
