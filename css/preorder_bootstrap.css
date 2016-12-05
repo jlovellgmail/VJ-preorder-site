@@ -1076,6 +1076,17 @@ body {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .productPage .widthWrapper .rowSlides {
+    display: none;
+  }
+  .productPage .widthWrapper .featuresSection .featuresContainer {
+    max-width: 100%;
+  }
+  .productPage .widthWrapper .featuresSection .featuresContainer .feature .bodyCopy {
+    margin-left: initial;
+    margin-right: initial;
+    width: initial;
+  }
   .productPage .productImageContainer img {
     width: 100%;
   }
