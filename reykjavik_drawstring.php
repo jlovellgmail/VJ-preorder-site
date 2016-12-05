@@ -5,20 +5,22 @@ $seo_variable = "home";
 ?>
 <html class="no-js" lang="en">
 <head>
-    <?php include '/incs/head-links.php'; ?>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="../css/bootstrap-grid.css" />
+    <?php include '/incs/head-links_bootstrap.php'; ?>
 	<link rel="stylesheet" href="/css/index.css" />
-	<link rel="stylesheet" href="../css/preorder.css" />
+	<link rel="stylesheet" href="../css/preorder_bootstrap.css" />
 </head>
 <body class="body">
+	<?php include 'nav_bootstrap.php'; ?>
 
-			
 
-	<?php include 'nav.php'; ?>
 	
 	<div class="productPage">
 		<div class="widthWrapper">
 
-			
+
+
 			<div class="breadcrumb">
 				<a class="first" href="#">Home</a>
 				<a href="preorder/collections.php">Collections</a>
@@ -26,6 +28,7 @@ $seo_variable = "home";
 				<a href="preorder/reykjavik_drawstring.php">Drawstring</a>
 				<div class="hline"></div>
 			</div>
+
 
 
 			<div class="rowTop">
@@ -50,6 +53,8 @@ $seo_variable = "home";
 					</div>
 				</div>
 			</div>
+
+
 
 
 			<div class="rowSlides">
@@ -212,12 +217,13 @@ $seo_variable = "home";
 			</div>
 
 
+
 		</div>
 	</div>
+
+
+
     <?php include '/incs/footer.php'; ?>
-
-
-
 </body>
 </html>
 
