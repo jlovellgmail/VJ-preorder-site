@@ -5,14 +5,14 @@ $seo_variable = "home";
 ?>
 <html class="no-js" lang="en">
 <head>
-    <?php include '/incs/head-links.php'; ?>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="../css/bootstrap-grid.css" />
+    <?php include '/incs/head-links_bootstrap.php'; ?>
 	<link rel="stylesheet" href="/css/index.css" />
-	<link rel="stylesheet" href="../css/preorder.css" />
+	<link rel="stylesheet" href="../css/preorder_bootstrap.css" />
 </head>
 <body class="body">
-	<?php include 'nav.php'; ?>
-	
-
+	<?php include 'nav_bootstrap.php'; ?>
 	<div class="preorderPage">
 		<div class="landingFrame">
 			<div class="mainFrame">
@@ -21,7 +21,7 @@ $seo_variable = "home";
 
 				<div class="preorderText">
 					<div class="headline">
-						Exclusive Preview
+						Early Access
 					</div>
 					<div class="titleContainer">
 						<div class="title">
@@ -54,14 +54,15 @@ $seo_variable = "home";
 				</div>
 
 
+				<div class="imageWrapper">
+				</div>
+
+
 
 
 			</div>
 		</div>
+		<?php include "/incs/footer.php"; ?>
 	</div>
-
-
-	<?php include "/incs/footer.php"; ?>
 </body>
 </html>
-
