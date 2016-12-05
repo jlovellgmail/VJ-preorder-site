@@ -797,7 +797,7 @@ body {
   letter-spacing: 1px;
   display: inline-block;
   font-weight: 100;
-  margin-left: 8px;
+  margin-left: 5px;
 }
 .collectionPage .topRow .text {
   color: rgba(0, 0, 0, 0.9);
@@ -857,14 +857,16 @@ body {
   }
   .collectionPage .topRow .headline {
     margin-top: 0;
-    line-height: 28px;
+    line-height: 31px;
   }
   .collectionPage .topRow .headline .part1 {
     font-size: 38px;
+    display: block;
   }
   .collectionPage .topRow .headline .part2 {
     margin-left: 0;
     font-size: 24px;
+    display: block;
   }
   .collectionPage .topRow .text {
     line-height: 25px;
