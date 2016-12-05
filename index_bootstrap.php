@@ -18,10 +18,10 @@ $seo_variable = "home";
 			<div class="mainFrame">
 
 
-			
+
 				<div class="preorderText">
 					<div class="headline">
-						Exclusive Preview
+						Early Access
 					</div>
 					<div class="titleContainer">
 						<div class="title">
@@ -51,6 +51,10 @@ $seo_variable = "home";
 							</div>
 						</a>
 					</div>
+				</div>
+
+
+				<div class="imageWrapper">
 				</div>
 
 

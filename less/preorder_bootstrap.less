@@ -792,19 +792,26 @@ body {
 			.mainFrame {
 				margin: 0;
 				min-height: calc(~"100vh - 76px");
+				
+				/*
 				background-size: 170%;
 				background-position-x: 53%;
 				background-position-y: 100%;
+				*/
+				background: none;
+
 				.preorderText {
 					width: 100%;
 					top: initial;
 					right: initial;
 					transform: initial;
-					margin-top: 37px;
+					margin-top: 24px;
+					position: relative;
 					.headline {
-						font-size: 20px;
+						font-size: 30px;
 					}
 					.titleContainer {
+						display: none;
 						margin: 0;
 						.title {
 							font-size: 24px;
@@ -814,9 +821,11 @@ body {
 						display: none;
 					}
 					.boxes {
-						margin-top: 7px;
+						margin-top: 10px;
+						//border: none;
+						border-color: rgba(0,0,0, .6);
 						.box {
-							width: initial;
+							width: 150px;
 							font-size: 19px;
 							padding: 20px 23px;
 							.subtitle {
@@ -825,10 +834,29 @@ body {
 								top: -3px;
 							}
 						}
+						.box:nth-of-type(1) {
+							// text-align: right;
+							padding-right: 16px;
+						}
+						.box:nth-of-type(2) {
+							// text-align: left;
+							padding-left: 16px;
+						}
 						.vline {
-							height: 60px;
+							height: 50px;
 						}
 					}
+				}
+				.imageWrapper {
+					display: block;
+					width: 100%;
+					padding-bottom: 120%;
+					height: 0;
+					background-image: url(/preorder/images/tote_hero_whitebg_q7.jpg);
+					background-size: 170%;
+					margin-top: 30px;
+					background-position-x: 53%;
+					background-repeat: no-repeat;
 				}
 			}
 		}
