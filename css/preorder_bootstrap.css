@@ -764,12 +764,12 @@ body {
   min-height: 100%;
   top: 76px;
   position: relative;
-  width: calc(100% - 95px - 95px);
-  margin-left: auto;
-  margin-right: auto;
 }
 .collectionPage .widthWrapper {
   width: 1170px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 .collectionPage .topRow {
   min-height: 40px;
@@ -808,10 +808,28 @@ body {
   margin-top: 13px;
   display: inline-block;
 }
-@media all and (max-width: 1020px) {
-  body .productsGrid .row .item {
-    width: 100%;
-  }
+.collectionPage .item {
+  width: 33%;
+  display: inline-block;
+  position: relative;
+}
+.collectionPage .item img {
+  width: 100%;
+}
+.collectionPage .item .caption {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 98px;
+  font-size: 16px;
+}
+.collectionPage .item .caption .title {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+.collectionPage .item .caption .price {
+  font-weight: 100;
 }
 @media all and (max-width: 740px) {
   body .collectionPage .topRow .headline {
@@ -823,38 +841,22 @@ body {
     font-size: 27px;
   }
 }
-.productsGrid .row {
-  margin-top: 50px;
+@media all and (max-width: 1170px) {
+  .collectionPage .widthWrapper {
+    width: 780px;
+  }
+  .collectionPage .item {
+    width: 49%;
+  }
 }
-.productsGrid .row.first {
-  margin-top: 10px;
-}
-.productsGrid .row .item {
-  width: 33%;
-  display: inline-block;
-  position: relative;
-}
-.productsGrid .row .item img {
-  width: 100%;
-}
-.productsGrid .row .item .caption {
-  text-align: left;
-  position: absolute;
-  bottom: 0;
-  left: 98px;
-  font-size: 16px;
-}
-.productsGrid .row .item .caption .title {
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .5px;
-}
-.productsGrid .row .item .caption .price {
-  font-weight: 100;
-}
-.productsGrid .row .colSpacer {
-  display: inline-block;
-  width: 20px;
+@media all and (max-width: 780px) {
+  .collectionPage .topRow {
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+  .collectionPage .item {
+    width: 100%;
+  }
 }
 .productPage .widthWrapper {
   max-width: 1170px;
