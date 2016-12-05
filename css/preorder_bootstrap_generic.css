@@ -831,23 +831,6 @@ body {
 .collectionPage .item .caption .price {
   font-weight: 100;
 }
-.collectionPage .colSpacer {
-  display: inline-block;
-  width: 20px;
-}
-/*
-@media all and (max-width: 1020px) {
-	body {
-		.productsGrid {
-			.row {
-				.item {
-					width: 100%;
-				}
-			}
-		}
-	}
-}
-*/
 @media all and (max-width: 740px) {
   body .collectionPage .topRow .headline {
     font-size: 36px;
