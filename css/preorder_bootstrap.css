@@ -826,6 +826,38 @@ body {
     display: none;
   }
 }
+.preorderPage.v2 .landingFrame .mainFrame .preorderText {
+  margin-top: 21px;
+}
+.preorderPage.v2 .landingFrame .mainFrame .preorderText .headline {
+  font-size: 21px;
+}
+.preorderPage.v2 .landingFrame .mainFrame .preorderText .titleContainer {
+  display: initial;
+}
+.preorderPage.v2 .landingFrame .mainFrame .preorderText .titleContainer .title .part1 {
+  display: block;
+  font-size: 47px;
+  font-weight: 800;
+  line-height: 50px;
+}
+.preorderPage.v2 .landingFrame .mainFrame .preorderText .titleContainer .title .part2 {
+  display: block;
+  margin-left: 0;
+  font-size: 30px;
+  line-height: 20px;
+  text-align: center;
+}
+.preorderPage.v2 .landingFrame .mainFrame .preorderText .boxes {
+  margin-top: 19px;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.preorderPage.v2 .landingFrame .mainFrame .imageWrapper {
+  background-image: url(/preorder/images/curves.jpg);
+  padding-bottom: 90%;
+  background-size: 100%;
+  margin-top: 14px;
+}
 .collectionPage {
   min-height: 100%;
   top: 76px;
