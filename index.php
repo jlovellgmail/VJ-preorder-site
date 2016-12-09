@@ -13,43 +13,47 @@ $seo_variable = "home";
 </head>
 <body class="body">
 	<?php include 'nav_bootstrap.php'; ?>
-	<div class="preorderPage">
+	<div class="preorderPage bg-whiter">
 		<div class="landingFrame">
 			<div class="mainFrame">
 
 
+				<div class="backgroundContainer">
+				</div>
 
-				<div class="preorderText">
-					<div class="headline">
-						Early Access
-					</div>
-					<div class="titleContainer">
-						<div class="title">
-							<div class="part1">Cityline</div><div class="part2">Collections</div>
+				<div class="contentContainer">
+					<div class="preorderText">
+						<div class="headline">
+							Early Access
 						</div>
-					</div>
-					<div class="copy">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales lorem nulla, non finibus lacus interdum eu. Nam et ligula efficitur, volutpat tortor sed, pulvinar leo. Vestibulum condimentum nisl augue, ut mollis nunc tempus vel. In sed felis tellus.
-					</div>
-					<div class="boxes">
-						<a class="box" href="preorder/collection_reykjavik.php">
+						<div class="titleContainer">
 							<div class="title">
-								Reykjavik
+								<div class="part1">Cityline</div><div class="part2">Collections</div>
 							</div>
-							<div class="subtitle">
-								Collection
-							</div>
-						</a>
-						<div class="vline">
 						</div>
-						<a class="box" href="preorder/collection_santafe.php">
-							<div class="title">
-								Santa Fe
+						<div class="copy">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales lorem nulla, non finibus lacus interdum eu. Nam et ligula efficitur, volutpat tortor sed, pulvinar leo. Vestibulum condimentum nisl augue, ut mollis nunc tempus vel. In sed felis tellus.
+						</div>
+						<div class="boxes">
+							<a class="box" href="preorder/collection_reykjavik.php">
+								<div class="title">
+									Reykjavik
+								</div>
+								<div class="subtitle">
+									Collection
+								</div>
+							</a>
+							<div class="vline">
 							</div>
-							<div class="subtitle">
-								Collection
-							</div>
-						</a>
+							<a class="box" href="preorder/collection_santafe.php">
+								<div class="title">
+									Santa Fe
+								</div>
+								<div class="subtitle">
+									Collection
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
 
