@@ -363,6 +363,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.4);
   padding: 70px;
   padding-bottom: 66px;
+  text-decoration: none;
 }
 .modalWindow .modalWrapper-contact .box .row {
   padding-bottom: 11px;
