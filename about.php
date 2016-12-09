@@ -144,6 +144,13 @@ $seo_variable = "home";
 					</div>
 				</div>
 				<!-- --------------------------------------------------- -->
+				<div class="row vjRowTopMargin">
+					<div class="col-lg-6">
+						<div class="image" id="extraImage1">
+						</div>
+					</div>
+				</div>
+				<!-- --------------------------------------------------- -->
 			</div>
 		</div>
 	</div>
